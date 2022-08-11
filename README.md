@@ -1,2 +1,2 @@
 # Community
-Share your config
+Share your configs
