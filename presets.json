@@ -7,5 +7,13 @@
   "Drool Light": "https://github.com/GradienceTeam/Community/raw/main/presets/drool-light.json",
   "Drool Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/drool-dark.json",
   "Builder Light": "https://github.com/GradienceTeam/Community/raw/main/presets/builder-light.json",
-  "Builder Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/builder-dark.json"
+  "Builder Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/builder-dark.json",
+  "Classic Light": "https://github.com/GradienceTeam/Community/raw/main/presets/classic-light.json",
+  "Classic Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/classic-dark.json",
+  "Cobalt Light": "https://github.com/GradienceTeam/Community/raw/main/presets/cobalt-light.json",
+  "Cobalt Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/cobalt-dark.json",
+  "Kate Light": "https://github.com/GradienceTeam/Community/raw/main/presets/kate-light.json",
+  "Kate Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/kate-dark.json",
+  "Peninsula Light": "https://github.com/GradienceTeam/Community/raw/main/presets/peninsula-light.json",
+  "Peninsula Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/peninsula-dark.json"  
 }
