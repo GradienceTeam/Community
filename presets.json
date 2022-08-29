@@ -14,6 +14,10 @@
   "Cobalt Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/cobalt-dark.json",
   "Kate Light": "https://github.com/GradienceTeam/Community/raw/main/presets/kate-light.json",
   "Kate Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/kate-dark.json",
+  "Oblivion": "https://github.com/GradienceTeam/Community/raw/main/presets/oblivion.json",
   "Peninsula Light": "https://github.com/GradienceTeam/Community/raw/main/presets/peninsula-light.json",
-  "Peninsula Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/peninsula-dark.json"  
+  "Peninsula Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/peninsula-dark.json",
+  "Solarized Light": "https://github.com/GradienceTeam/Community/raw/main/presets/solarized-light.json",
+  "Solarized Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/solarized-dark.json",
+  "Tango": "https://github.com/GradienceTeam/Community/raw/main/presets/tango.json"
 }
