@@ -10,8 +10,8 @@ Your Preset can be stored in this repo or somewhere else
 
 ## Preset stored in the community repo (recommended)
 
-In your PR, add your Preset in the `presets` folder and add a link to your Preset in `preset.json`
+In your PR, add your Preset in the `presets` folder and add a link to your Preset in `presetsa.json`
 
 ## Preset stored somewhere else
 
-Add a link to your Preset in `preset.json`
+Add a link to your Preset in `presets.json`
