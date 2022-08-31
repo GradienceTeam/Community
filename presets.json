@@ -19,5 +19,8 @@
   "Peninsula Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/peninsula-dark.json",
   "Solarized Light": "https://github.com/GradienceTeam/Community/raw/main/presets/solarized-light.json",
   "Solarized Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/solarized-dark.json",
-  "Tango": "https://github.com/GradienceTeam/Community/raw/main/presets/tango.json"
+  "Tango": "https://github.com/GradienceTeam/Community/raw/main/presets/tango.json",
+  "Dracula": "https://github.com/GradienceTeam/Community/raw/main/presets/dracula.json",
+  "Layan Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/layan-dark.json",
+  "Layan Light": "https://github.com/GradienceTeam/Community/raw/main/presets/layan-light.json"
 }
