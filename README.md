@@ -6,7 +6,7 @@ Add your Presets to `Explore` tab
 
 # How to add
 
-Your Preset can be stored in 
+Your Preset can be stored in:
 
 1. this repo
 2. somewhere else
