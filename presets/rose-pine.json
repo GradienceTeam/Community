@@ -12,7 +12,7 @@
         "success_fg_color": "#e0def4",
         "warning_color": "#f6c177",
         "warning_bg_color": "#f6c177",
-        "warning_fg_color": "rgb(33, 32, 46, 0.8)",
+        "warning_fg_color": "rgba(33, 32, 46, 0.8)",
         "error_color": "#ebbcba",
         "error_bg_color": "#ebbcba",
         "error_fg_color": "#e0def4",
@@ -24,7 +24,7 @@
         "headerbar_fg_color": "#e0def4",
         "headerbar_border_color": "#e0def4",
         "headerbar_backdrop_color": "@window_bg_color",
-        "headerbar_shade_color": "rgb(33, 32, 46, 0.4)",
+        "headerbar_shade_color": "rgba(33, 32, 46, 0.4)",
         "card_bg_color": "#26233a",
         "card_fg_color": "#e0def4",
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
@@ -33,7 +33,7 @@
         "popover_bg_color": "##26233a",
         "popover_fg_color": "#e0def4",
         "shade_color": "##26233a",
-        "scrollbar_outline_color": "rgb(33, 32, 46, 0.5)"
+        "scrollbar_outline_color": "rgba(33, 32, 46, 0.5)"
     },
     "palette": {
         "blue_": {
