@@ -25,6 +25,11 @@ A repo is a file where you list all of your presets. It can be stored everywhere
 
 Store a file with a similar formatting to `presets.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
 
+```json
+{
+  "My Awesome Preset": "https://my.website.me/my-awesome-preset.json"
+}
+```
 Add a link to your `repo` in `Preferences` > `Repo`
 
 # Preset example
