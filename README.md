@@ -8,16 +8,20 @@ Add your Presets to `Explore` tab
 
 Your Preset can be stored in:
 
-1. this repo
-2. somewhere else
+1. this `repo`
+2. in your `repo`
 
-## Preset stored in the community repo (recommended)
+## Preset stored in the official `repo` (recommended)
 
-In your Pull Request, add your Preset in the `presets` folder and add a link to your Preset in `presets.json`
+In your Pull Request, add your Preset in the `presets` folder
+
+Don't touch to `presets.json` because it's automatically generated.
 
 ## Preset stored somewhere else
 
-In your Pull Request, add a link to your Preset in `presets.json`
+Store a file with a similar formatting to `presets.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
+
+Add a link to your `repo` in `Preferences` > `Repo`
 
 # Preset example
 ```json
