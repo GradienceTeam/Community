@@ -36,7 +36,8 @@ Add a link to your `repo` in `Preferences` > `Repo`
 # Preset example
 ```json
 {
-    "name": "Preset Name", // The name should be written as shown, in PascalCase, but with spaces between words
+    // The name should be written as shown, in PascalCase, but with spaces between words
+    "name": "Preset Name", 
     "variables": {
         "accent_color": "#78aeed",
         "accent_bg_color": "#3584e4",
