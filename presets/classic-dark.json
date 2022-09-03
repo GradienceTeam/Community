@@ -1,76 +1,39 @@
-# Community
-
-[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#Gradience:matrix.org)
-[![Chat on Discord](https://img.shields.io/discord/1013779899821064202)](https://discord.com/invite/rwNDGPJf)
-
-Add your Presets to `Explore` tab
-
-# How to add
-
-Your Preset can be stored in:
-
-1. this `repo`
-2. in your `repo`
-
-## Preset stored in the official `repo` (recommended)
-
-In your Pull Request, add your Preset in the `presets` folder
-
-Don't touch to `presets.json` because it's automatically generated.
-
-## Preset stored somewhere else
-
-### What's a repo ?
-
-A repo is a file where you list all of your presets. It can be stored everywhere after creating your repo, you can share it and enable it in `Preferences`
-
-Store a file with a similar formatting to `presets.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
-
-```json
 {
-  "My Awesome Preset": "https://my.website.me/my-awesome-preset.json"
-}
-```
-Add a link to your `repo` in `Preferences` > `Repo`
-
-# Preset example
-```json
-{
-    "name": "Preset Name", // The name should be written as shown, in PascalCase, but with spaces between words
+    "name": "Classic Dark",
     "variables": {
-        "accent_color": "#78aeed",
+        "accent_color": "#4f6989",
         "accent_bg_color": "#3584e4",
-        "accent_fg_color": "#ffffff",
+        "accent_fg_color": "rgb(255,255,255)",
         "destructive_color": "#ff7b63",
         "destructive_bg_color": "#c01c28",
-        "destructive_fg_color": "#ffffff",
+        "destructive_fg_color": "rgb(255,255,255)",
         "success_color": "#8ff0a4",
         "success_bg_color": "#26a269",
-        "success_fg_color": "#ffffff",
+        "success_fg_color": "rgb(255,255,255)",
         "warning_color": "#f8e45c",
         "warning_bg_color": "#cd9309",
         "warning_fg_color": "rgba(0, 0, 0, 0.8)",
         "error_color": "#ff7b63",
         "error_bg_color": "#c01c28",
-        "error_fg_color": "#ffffff",
-        "window_bg_color": "#242424",
-        "window_fg_color": "#ffffff",
-        "view_bg_color": "#1e1e1e",
-        "view_fg_color": "#ffffff",
-        "headerbar_bg_color": "#303030",
-        "headerbar_fg_color": "#ffffff",
+        "error_fg_color": "rgb(255,255,255)",
+        "window_bg_color": "#101010",
+        "window_fg_color": "#e0e0e0",
+        "view_bg_color": "#101010",
+        "view_fg_color": "rgb(224,224,224)",
+        "headerbar_bg_color": "#222222",
+        "headerbar_fg_color": "#e0e0e0",
         "headerbar_border_color": "#ffffff",
         "headerbar_backdrop_color": "@window_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
-        "card_bg_color": "rgba(255, 255, 255, 0.08)",
-        "card_fg_color": "#ffffff",
+        "card_bg_color": "#232323",
+        "card_fg_color": "#e0e0e0",
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
-        "dialog_bg_color": "#383838",
+        "dialog_bg_color": "#101010",
         "dialog_fg_color": "#ffffff",
-        "popover_bg_color": "#383838",
-        "popover_fg_color": "#ffffff",
-        "shade_color": "rgba(0,0,0,0.36)",
-        "scrollbar_outline_color": "rgba(0,0,0,0.5)"
+        "popover_bg_color": "#212121",
+        "popover_fg_color": "#e0e0e0",
+        "shade_color": "#383838",
+        "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
     },
     "palette": {
         "blue_": {
@@ -142,4 +105,3 @@ Add a link to your `repo` in `Preferences` > `Repo`
         "gtk3": ""
     }
 }
-```
