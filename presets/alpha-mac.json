@@ -1,0 +1,110 @@
+{
+    "name": "Alpha Mac",
+    "variables": {
+        "accent_color": "@accent_bg_color",
+        "accent_bg_color": "rgb(17,97,203)",
+        "accent_fg_color": "#ffffff",
+        "destructive_color": "#ff7b63",
+        "destructive_bg_color": "#c01c28",
+        "destructive_fg_color": "#ffffff",
+        "success_color": "#8ff0a4",
+        "success_bg_color": "#26a269",
+        "success_fg_color": "#ffffff",
+        "warning_color": "#f8e45c",
+        "warning_bg_color": "#cd9309",
+        "warning_fg_color": "rgba(0, 0, 0, 0.8)",
+        "error_color": "#ff7b63",
+        "error_bg_color": "#c01c28",
+        "error_fg_color": "#ffffff",
+        "window_bg_color": "rgb(16,16,16)",
+        "window_fg_color": "rgb(248,248,242)",
+        "view_bg_color": "rgb(16,16,16)",
+        "view_fg_color": "@window_fg_color",
+        "headerbar_bg_color": "@window_bg_color",
+        "headerbar_fg_color": "@window_fg_color",
+        "headerbar_border_color": "#ffffff",
+        "headerbar_backdrop_color": "@window_bg_color",
+        "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
+        "card_bg_color": "rgba(255, 255, 255, 0.08)",
+        "card_fg_color": " @window_fg_color",
+        "card_shade_color": "rgba(0, 0, 0, 0.36)",
+        "dialog_bg_color": "@popover_bg_color",
+        "dialog_fg_color": "@popover_fg_color",
+        "popover_bg_color": "#202020",
+        "popover_fg_color": "@view_fg_color",
+        "shade_color": "rgba(0,0,0,0.36)",
+        "scrollbar_outline_color": "rgba(0,0,0,0.5)"
+    },
+    "palette": {
+        "blue_": {
+            "1": "#99c1f1",
+            "2": "#62a0ea",
+            "3": "#3584e4",
+            "4": "#1c71d8",
+            "5": "#1a5fb4"
+        },
+        "green_": {
+            "1": "#8ff0a4",
+            "2": "#57e389",
+            "3": "#33d17a",
+            "4": "#2ec27e",
+            "5": "#26a269"
+        },
+        "yellow_": {
+            "1": "#f9f06b",
+            "2": "#f8e45c",
+            "3": "#f6d32d",
+            "4": "#f5c211",
+            "5": "#e5a50a"
+        },
+        "orange_": {
+            "1": "#ffbe6f",
+            "2": "#ffa348",
+            "3": "#ff7800",
+            "4": "#e66100",
+            "5": "#c64600"
+        },
+        "red_": {
+            "1": "#f66151",
+            "2": "#ed333b",
+            "3": "#e01b24",
+            "4": "#c01c28",
+            "5": "#a51d2d"
+        },
+        "purple_": {
+            "1": "#dc8add",
+            "2": "#c061cb",
+            "3": "#9141ac",
+            "4": "#813d9c",
+            "5": "#613583"
+        },
+        "brown_": {
+            "1": "#cdab8f",
+            "2": "#b5835a",
+            "3": "#986a44",
+            "4": "#865e3c",
+            "5": "#63452c"
+        },
+        "light_": {
+            "1": "#ffffff",
+            "2": "#f6f5f4",
+            "3": "#deddda",
+            "4": "#c0bfbc",
+            "5": "#9a9996"
+        },
+        "dark_": {
+            "1": "#77767b",
+            "2": "#5e5c64",
+            "3": "#3d3846",
+            "4": "#241f31",
+            "5": "#000000"
+        }
+    },
+    "custom_css": {
+        "gtk4": "windowcontrols > button { /* GTK4 */\n  color: transparent;\n  min-width: 2px;\n  min-height: 2px;\n  border-radius: 100%;\n  padding: 0;\n  margin: 0 5px;\n}\n\nwindowcontrols > button > image {\n  padding: 0;\n}\n\nbutton.titlebutton.close,\nwindowcontrols > button.close {\n  background-color: #fc5753;\n  border: 1px solid #e04644;\n}\n\nbutton.titlebutton.close:hover,\nwindowcontrols > button.close:hover {\n  color: #7e0608;\n  opacity: 0.8;\n}\n\nbutton.titlebutton.maximize,\nwindowcontrols > button.maximize {\n  background-color: #33c848;\n  border: 1px solid #3e9948;\n}\n\nbutton.titlebutton.maximize:hover,\nwindowcontrols > button.maximize:hover {\n  color: #0b650d;\n  opacity: 0.8;\n}\n\nbutton.titlebutton.minimize,\nwindowcontrols > button.minimize {\n  background-color: #ffba40;\n  border: 1px solid #dd9d30;\n}\n\nbutton.titlebutton.minimize:hover,\nwindowcontrols > button.minimize:hover {\n  color: #9a5711;\n  opacity: 0.8;\n}\n",
+        "gtk3": "button.titlebutton { /* GTK3 */\n  color: transparent;\n  min-width: 18px;\n  min-height: 18px;\n}\nbutton.titlebutton:backdrop {\n  opacity: 0.5;\n}"
+    },
+    "plugins": {
+        "firefox_gnome_theme": null
+    }
+}
