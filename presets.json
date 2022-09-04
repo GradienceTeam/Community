@@ -27,5 +27,6 @@
   "Nord": "https://github.com/GradienceTeam/Community/raw/main/presets/nord.json",
   "Catppuccin frappe": "https://github.com/GradienceTeam/Community/raw/main/presets/catppuccin-frappe.json",
   "Catppuccin latte": "https://github.com/GradienceTeam/Community/raw/main/presets/catppuccin-latte.json",
-  "Alpha Mac": "https://github.com/GradienceTeam/Community/raw/alpha-mac/presets/alpha-mac.json"
+  "Alpha Mac": "https://github.com/GradienceTeam/Community/raw/alpha-mac/presets/alpha-mac.json",
+  "SurGubbe": "https://github.com/GradienceTeam/Community/raw/main/presets/surgubbe.json"
 }
