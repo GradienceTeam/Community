@@ -1,0 +1,107 @@
+{
+    "name": "SurGubbe",
+    "variables": {
+        "accent_color": "@accent_bg_color",
+        "accent_bg_color": "#2e78dc",
+        "accent_fg_color": "#ffffff",
+        "destructive_color": "#c01c28",
+        "destructive_bg_color": "#e01b24",
+        "destructive_fg_color": "#ffffff",
+        "success_color": "#26a269",
+        "success_bg_color": "#2ec27e",
+        "success_fg_color": "#ffffff",
+        "warning_color": "#ae7b03",
+        "warning_bg_color": "#e5a50a",
+        "warning_fg_color": "rgba(0, 0, 0, 0.8)",
+        "error_color": "#c01c28",
+        "error_bg_color": "#e01b24",
+        "error_fg_color": "#ffffff",
+        "window_bg_color": "#f5f5f5",
+        "window_fg_color": "#363636",
+        "view_bg_color": "#ffffff",
+        "view_fg_color": "@window_fg_color",
+        "headerbar_bg_color": "shade(@window_bg_color, .96)",
+        "headerbar_fg_color": "@window_fg_color",
+        "headerbar_border_color": "rgba(0, 0, 0, 0.8)",
+        "headerbar_backdrop_color": "@window_bg_color",
+        "headerbar_shade_color": "shade(@window_bg_color, .96)",
+        "card_bg_color": "@view_bg_color",
+        "card_fg_color": "@view_fg_color",
+        "card_shade_color": "rgba(0, 0, 0, 0.07)",
+        "dialog_bg_color": "@popover_bg_color",
+        "dialog_fg_color": "@popover_fg_color",
+        "popover_bg_color": "@view_bg_color",
+        "popover_fg_color": "@view_fg_color",
+        "shade_color": "rgba(0,0,0,0.07)",
+        "scrollbar_outline_color": "rgb(255,255,255)"
+    },
+    "palette": {
+        "blue_": {
+            "1": "#99c1f1",
+            "2": "#62a0ea",
+            "3": "#3584e4",
+            "4": "#1c71d8",
+            "5": "#1a5fb4"
+        },
+        "green_": {
+            "1": "#8ff0a4",
+            "2": "#57e389",
+            "3": "#33d17a",
+            "4": "#2ec27e",
+            "5": "#26a269"
+        },
+        "yellow_": {
+            "1": "#f9f06b",
+            "2": "#f8e45c",
+            "3": "#f6d32d",
+            "4": "#f5c211",
+            "5": "#e5a50a"
+        },
+        "orange_": {
+            "1": "#ffbe6f",
+            "2": "#ffa348",
+            "3": "#ff7800",
+            "4": "#e66100",
+            "5": "#c64600"
+        },
+        "red_": {
+            "1": "#f66151",
+            "2": "#ed333b",
+            "3": "#e01b24",
+            "4": "#c01c28",
+            "5": "#a51d2d"
+        },
+        "purple_": {
+            "1": "#dc8add",
+            "2": "#c061cb",
+            "3": "#9141ac",
+            "4": "#813d9c",
+            "5": "#613583"
+        },
+        "brown_": {
+            "1": "#cdab8f",
+            "2": "#b5835a",
+            "3": "#986a44",
+            "4": "#865e3c",
+            "5": "#63452c"
+        },
+        "light_": {
+            "1": "#ffffff",
+            "2": "#f6f5f4",
+            "3": "#deddda",
+            "4": "#c0bfbc",
+            "5": "#9a9996"
+        },
+        "dark_": {
+            "1": "#77767b",
+            "2": "#5e5c64",
+            "3": "#3d3846",
+            "4": "#241f31",
+            "5": "#000000"
+        }
+    },
+    "custom_css": {
+        "gtk4": "button.titlebutton,\nwindowcontrols > button {\n  color: transparent;\n  min-width: 16px;\n  min-height: 16px;\n  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);\n}\n\nbutton.titlebutton:backdrop {\n  opacity: 0.5;\n}\n\nwindowcontrols > button {\n  border-radius: 100%;\n  padding: 0;\n  margin: 0 3px;\n}\n\nwindowcontrols > button > image {\n  padding: 0;\n}\n\nbutton.titlebutton {\n  margin: 0 2px;\n}\n\n.titlebar .right {\n  margin-right: 8px;\n}\n\n.titlebar .left {\n  margin-left: 8px;\n}\n\nwindowcontrols.end {\n  margin-right: 8px;\n}\n\nwindowcontrols.start {\n  margin-left: 8px;\n}\n\nbutton.titlebutton.close, button.titlebutton.close:hover:backdrop,\nwindowcontrols > button.close,\nwindowcontrols > button.close:hover:backdrop {\n  background-color: #ff605c;\n}\n\nbutton.titlebutton.close:hover,\nwindowcontrols > button.close:hover {\n  background-color: shade(#ff605c,0.9);\n}\n\nbutton.titlebutton.maximize, button.titlebutton.maximize:hover:backdrop,\nwindowcontrols > button.maximize,\nwindowcontrols > button.maximize:hover:backdrop {\n  background-color: #00ca4e;\n}\n\nbutton.titlebutton.maximize:hover,\nwindowcontrols > button.maximize:hover {\n  background-color: shade(#00ca4e,0.9);\n}\n\nbutton.titlebutton.minimize, button.titlebutton.minimize:hover:backdrop,\nwindowcontrols > button.minimize,\nwindowcontrols > button.minimize:hover:backdrop {\n  background-color: #ffbd44;\n}\n\nbutton.titlebutton.minimize:hover,\nwindowcontrols > button.minimize:hover {\n  background-color: shade(#ffbd44,0.9);\n}\n\nbutton.titlebutton.close:backdrop, button.titlebutton.maximize:backdrop, button.titlebutton.minimize:backdrop,\nwindowcontrols > button.close:backdrop,\nwindowcontrols > button.maximize:backdrop,\nwindowcontrols > button.minimize:backdrop {\n  background-color: #c0bfc0;\n}\n\nnotebook > header tab:not(:backdrop):not(:checked).reorderable-page,\ntabbar tab:not(:backdrop):not(:checked) {\n  background-color: #e1dfe1;\n  box-shadow: none;\n  border-bottom: 1px solid alpha(currentColor,0.15);\n}\n\nnotebook > header tab:hover:not(:backdrop):not(:checked).reorderable-page,\ntabbar tab:hover:not(:backdrop):not(:checked) {\n  background-color: shade(#e1dfe1,0.96);\n}\n\nnotebook > header tab:not(:backdrop):checked.reorderable-page,\ntabbar tab:not(:backdrop):checked {\n  background-color: @view_bg_color;\n  box-shadow: none;\n  border-bottom: 1px solid alpha(currentColor,0.15);\n}\n\nnotebook > header tab:backdrop.reorderable-page,\ntabbar tab:backdrop {\n  box-shadow: none;\n  background-color: mix(@window_bg_color,#e1dfe1,0.5);\n}\n\nnotebook > header tab:checked:backdrop.reorderable-page,\ntabbar tab:checked:backdrop {\n  background-color: @window_bg_color;\n}\n\ntabbar tab {\n  border: 0;\n}\n\n.nautilus-window .sidebar {\n  background-color: mix(@window_bg_color,@view_bg_color,0.5);\n}\n\n.nautilus-window .sidebar:backdrop {\n  background-color: @window_bg_color;\n}",
+        "gtk3": "button.titlebutton,\nwindowcontrols > button {\n  color: transparent;\n  min-width: 16px;\n  min-height: 16px;\n  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);\n}\n\nbutton.titlebutton:backdrop {\n  opacity: 0.5;\n}\n\nwindowcontrols > button {\n  border-radius: 100%;\n  padding: 0;\n  margin: 0 3px;\n}\n\nwindowcontrols > button > image {\n  padding: 0;\n}\n\nbutton.titlebutton {\n  margin: 0 2px;\n}\n\n.titlebar .right {\n  margin-right: 8px;\n}\n\n.titlebar .left {\n  margin-left: 8px;\n}\n\nwindowcontrols.end {\n  margin-right: 8px;\n}\n\nwindowcontrols.start {\n  margin-left: 8px;\n}\n\nbutton.titlebutton.close, button.titlebutton.close:hover:backdrop,\nwindowcontrols > button.close,\nwindowcontrols > button.close:hover:backdrop {\n  background-color: #ff605c;\n}\n\nbutton.titlebutton.close:hover,\nwindowcontrols > button.close:hover {\n  background-color: shade(#ff605c,0.9);\n}\n\nbutton.titlebutton.maximize, button.titlebutton.maximize:hover:backdrop,\nwindowcontrols > button.maximize,\nwindowcontrols > button.maximize:hover:backdrop {\n  background-color: #00ca4e;\n}\n\nbutton.titlebutton.maximize:hover,\nwindowcontrols > button.maximize:hover {\n  background-color: shade(#00ca4e,0.9);\n}\n\nbutton.titlebutton.minimize, button.titlebutton.minimize:hover:backdrop,\nwindowcontrols > button.minimize,\nwindowcontrols > button.minimize:hover:backdrop {\n  background-color: #ffbd44;\n}\n\nbutton.titlebutton.minimize:hover,\nwindowcontrols > button.minimize:hover {\n  background-color: shade(#ffbd44,0.9);\n}\n\nbutton.titlebutton.close:backdrop, button.titlebutton.maximize:backdrop, button.titlebutton.minimize:backdrop,\nwindowcontrols > button.close:backdrop,\nwindowcontrols > button.maximize:backdrop,\nwindowcontrols > button.minimize:backdrop {\n  background-color: #c0bfc0;\n}\n\nnotebook > header tab:not(:backdrop):not(:checked).reorderable-page,\ntabbar tab:not(:backdrop):not(:checked) {\n  background-color: #e1dfe1;\n  box-shadow: none;\n  border-bottom: 1px solid alpha(currentColor,0.15);\n}\n\nnotebook > header tab:hover:not(:backdrop):not(:checked).reorderable-page,\ntabbar tab:hover:not(:backdrop):not(:checked) {\n  background-color: shade(#e1dfe1,0.96);\n}\n\nnotebook > header tab:not(:backdrop):checked.reorderable-page,\ntabbar tab:not(:backdrop):checked {\n  background-color: @view_bg_color;\n  box-shadow: none;\n  border-bottom: 1px solid alpha(currentColor,0.15);\n}\n\nnotebook > header tab:backdrop.reorderable-page,\ntabbar tab:backdrop {\n  box-shadow: none;\n  background-color: mix(@window_bg_color,#e1dfe1,0.5);\n}\n\nnotebook > header tab:checked:backdrop.reorderable-page,\ntabbar tab:checked:backdrop {\n  background-color: @window_bg_color;\n}\n\ntabbar tab {\n  border: 0;\n}\n\n.nautilus-window .sidebar {\n  background-color: mix(@window_bg_color,@view_bg_color,0.5);\n}\n\n.nautilus-window .sidebar:backdrop {\n  background-color: @window_bg_color;\n}"
+    }
+}
