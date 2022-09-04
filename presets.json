@@ -24,5 +24,7 @@
   "Layan Light": "https://github.com/GradienceTeam/Community/raw/main/presets/layan-light.json",
   "Yaru": "https://github.com/GradienceTeam/Community/raw/main/presets/yaru.json",
   "Yaru Dark": "https://github.com/GradienceTeam/Community/raw/main/presets/yaru-dark.json",
-  "Nord": "https://github.com/GradienceTeam/Community/raw/main/presets/nord.json"
+  "Nord": "https://github.com/GradienceTeam/Community/raw/main/presets/nord.json",
+  "Catppuccin frappe": "https://github.com/GradienceTeam/Community/raw/main/presets/catppuccin-frappe.json",
+  "Catppuccin latte": "https://github.com/GradienceTeam/Community/raw/main/presets/catppuccin-latte.json"
 }
