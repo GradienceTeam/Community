@@ -28,4 +28,4 @@ jobs:
       - name: Check json files
         uses: ValentinVignal/action-json-keys@v0.5
         with:
-          file-matcher: '**/*.json'
+          file-matcher: 'presets/**/*.json'
