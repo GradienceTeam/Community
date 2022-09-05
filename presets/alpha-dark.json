@@ -1,46 +1,8 @@
-# Community
-
-[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#Gradience:matrix.org)
-[![Chat on Discord](https://img.shields.io/discord/1013779899821064202)](https://discord.com/invite/rwNDGPJf)
-
-Add your Presets to `Explore` tab
-
-# How to add
-
-Your Preset can be stored in:
-
-1. this `repo`
-2. in your `repo`
-
-## Preset stored in the official `repo` (recommended)
-
-In your Pull Request, add your Preset in the `presets` folder
-
-Don't touch to `presets.json` because it's automatically generated.
-
-## Preset stored somewhere else
-
-### What's a repo ?
-
-A repo is a file where you list all of your presets. It can be stored everywhere after creating your repo, you can share it and enable it in `Preferences`
-
-Store a file with a similar formatting to `presets.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
-
-```json
 {
-  "My Awesome Preset": "https://my.website.me/my-awesome-preset.json"
-}
-```
-Add a link to your `repo` in `Preferences` > `Repo`
-
-# Preset example
-```json
-{
-    // The name should be written as shown, in PascalCase, but with spaces between words
-    "name": "Preset Name", 
+    "name": "Alpha Dark",
     "variables": {
-        "accent_color": "#78aeed",
-        "accent_bg_color": "#3584e4",
+        "accent_color": "@accent_bg_color",
+        "accent_bg_color": "#1161cb",
         "accent_fg_color": "#ffffff",
         "destructive_color": "#ff7b63",
         "destructive_bg_color": "#c01c28",
@@ -54,22 +16,22 @@ Add a link to your `repo` in `Preferences` > `Repo`
         "error_color": "#ff7b63",
         "error_bg_color": "#c01c28",
         "error_fg_color": "#ffffff",
-        "window_bg_color": "#242424",
-        "window_fg_color": "#ffffff",
-        "view_bg_color": "#1e1e1e",
-        "view_fg_color": "#ffffff",
-        "headerbar_bg_color": "#303030",
-        "headerbar_fg_color": "#ffffff",
+        "window_bg_color": "#101010",
+        "window_fg_color": "#f8f8f2",
+        "view_bg_color": "#101010",
+        "view_fg_color": "@window_fg_color",
+        "headerbar_bg_color": "@window_bg_color",
+        "headerbar_fg_color": "@window_fg_color",
         "headerbar_border_color": "#ffffff",
         "headerbar_backdrop_color": "@window_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
         "card_bg_color": "rgba(255, 255, 255, 0.08)",
-        "card_fg_color": "#ffffff",
+        "card_fg_color": "@window_fg_color",
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
-        "dialog_bg_color": "#383838",
-        "dialog_fg_color": "#ffffff",
-        "popover_bg_color": "#383838",
-        "popover_fg_color": "#ffffff",
+        "dialog_bg_color": "@popover_bg_color",
+        "dialog_fg_color": "@popover_fg_color",
+        "popover_bg_color": "#202020",
+        "popover_fg_color": "@view_fg_color",
         "shade_color": "rgba(0,0,0,0.36)",
         "scrollbar_outline_color": "rgba(0,0,0,0.5)"
     },
@@ -139,8 +101,7 @@ Add a link to your `repo` in `Preferences` > `Repo`
         }
     },
     "custom_css": {
-        "gtk4": "",
-        "gtk3": ""
+        "gtk4": "\nwindowcontrols > button { /* GTK4 */\n  color: transparent;\n  min-width: 2px;\n  min-height: 2px;\n  border-radius: 100%;\n  padding: 0;\n  margin: 0 5px;\n}\n\nwindowcontrols > button > image {\n  padding: 0;\n}\n\nbutton.titlebutton.close,\nwindowcontrols > button.close {\n  background-color: #505050;\n}\n\nbutton.titlebutton.close:hover,\nwindowcontrols > button.close:hover {\n  opacity: 0.8;\n}\n\nbutton.titlebutton.maximize,\nwindowcontrols > button.maximize {\n  background-color: #505050;\n}\n\nbutton.titlebutton.maximize:hover,\nwindowcontrols > button.maximize:hover {\n  opacity: 0.8;\n}\n\nbutton.titlebutton.minimize,\nwindowcontrols > button.minimize {\n  background-color: #505050;\n}\n\nbutton.titlebutton.minimize:hover,\nwindowcontrols > button.minimize:hover {\n  opacity: 0.8;\n}",
+        "gtk3": "button.titlebutton { /* GTK3 */\n  color: transparent;\n  min-width: 18px;\n  min-height: 18px;\n}\nbutton.titlebutton:backdrop {\n  opacity: 0.5;\n}\n"
     }
 }
-```

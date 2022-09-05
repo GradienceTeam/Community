@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🚀 GitHub Community
+    url: https://github.com/orgs/GradienceTeam/discussions
+    about: Please ask and answer questions here.
+  - name: 📬 Matrix
+    url: https://matrix.to/#/#Gradience:matrix.org
+    about: Chat on matrix.
+  - name: 🎁️ Share your presets
+    url: https://GitHub.com/Gradienceteam/Community
+    about: Share your presets and see them in the explore tab
