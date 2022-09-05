@@ -1,0 +1,107 @@
+{
+    "name": "Jungle Jaunt",
+    "variables": {
+        "accent_color": "rgb(57,106,31)",
+        "accent_bg_color": "rgb(57,106,31)",
+        "accent_fg_color": "rgb(5,33,0)",
+        "destructive_color": "rgb(186,27,27)",
+        "destructive_bg_color": "rgb(186,27,27)",
+        "destructive_fg_color": "rgb(180,204,159)",
+        "success_color": "rgb(56,102,102)",
+        "success_bg_color": "rgb(180,204,159)",
+        "success_fg_color": "rgb(187,235,235)",
+        "warning_color": "rgb(157,214,124)",
+        "warning_bg_color": "rgb(157,214,124)",
+        "warning_fg_color": "rgba(57,106,31,0.8)",
+        "error_color": "rgb(186,27,27)",
+        "error_bg_color": "rgb(255,218,212)",
+        "error_fg_color": "rgb(180,204,159)",
+        "window_bg_color": "rgb(180,204,159)",
+        "window_fg_color": "rgb(26,28,24)",
+        "view_bg_color": "rgb(180,204,159)",
+        "view_fg_color": "rgb(26,28,24)",
+        "headerbar_bg_color": "rgb(165,205,130)",
+        "headerbar_fg_color": "rgb(26,28,24)",
+        "headerbar_border_color": "rgba(57,106,31,0.8)",
+        "headerbar_backdrop_color": "@window_bg_color",
+        "headerbar_shade_color": "rgb(26,28,24)",
+        "card_bg_color": "rgba(57,106,31,0.05)",
+        "card_fg_color": "rgb(19,31,13)",
+        "card_shade_color": "rgb(180,204,159)",
+        "dialog_bg_color": "rgb(180,204,159)",
+        "dialog_fg_color": "rgb(19,31,13)",
+        "popover_bg_color": "rgb(180,204,159)",
+        "popover_fg_color": "rgb(19,31,13)",
+        "shade_color": "rgb(0,0,0)",
+        "scrollbar_outline_color": "rgb(116,121,110)"
+    },
+    "palette": {
+        "blue_": {
+            "1": "#99c1f1",
+            "2": "#62a0ea",
+            "3": "#3584e4",
+            "4": "#1c71d8",
+            "5": "#1a5fb4"
+        },
+        "green_": {
+            "1": "#8ff0a4",
+            "2": "#57e389",
+            "3": "#33d17a",
+            "4": "#2ec27e",
+            "5": "#26a269"
+        },
+        "yellow_": {
+            "1": "#f9f06b",
+            "2": "#f8e45c",
+            "3": "#f6d32d",
+            "4": "#f5c211",
+            "5": "#e5a50a"
+        },
+        "orange_": {
+            "1": "#ffbe6f",
+            "2": "#ffa348",
+            "3": "#ff7800",
+            "4": "#e66100",
+            "5": "#c64600"
+        },
+        "red_": {
+            "1": "#f66151",
+            "2": "#ed333b",
+            "3": "#e01b24",
+            "4": "#c01c28",
+            "5": "#a51d2d"
+        },
+        "purple_": {
+            "1": "#dc8add",
+            "2": "#c061cb",
+            "3": "#9141ac",
+            "4": "#813d9c",
+            "5": "#613583"
+        },
+        "brown_": {
+            "1": "#cdab8f",
+            "2": "#b5835a",
+            "3": "#986a44",
+            "4": "#865e3c",
+            "5": "#63452c"
+        },
+        "light_": {
+            "1": "#ffffff",
+            "2": "#f6f5f4",
+            "3": "#deddda",
+            "4": "#c0bfbc",
+            "5": "#9a9996"
+        },
+        "dark_": {
+            "1": "#77767b",
+            "2": "#5e5c64",
+            "3": "#3d3846",
+            "4": "#241f31",
+            "5": "#000000"
+        }
+    },
+    "custom_css": {
+        "gtk4": "",
+        "gtk3": ".terminal-window.root headerbar button:not(.titlebutton),\n.terminal-window.remote headerbar button:not(.titlebutton) {\n  min-width: 16px;\n  background: transparent;\n  border: 1px solid transparent;\n}\n\n.terminal-window.root headerbar button:not(.titlebutton):hover,\n.terminal-window.remote headerbar button:not(.titlebutton):hover,\n.terminal-window.root headerbar button:not(.titlebutton):checked,\n.terminal-window.remote headerbar button:not(.titlebutton):checked,\n.terminal-window.root headerbar button.titlebutton,\n.terminal-window.remote headerbar button.titlebutton {\n  background: alpha(white, 0.12);\n}\n\n.terminal-window.root headerbar button:not(.titlebutton):active,\n.terminal-window.remote headerbar button:not(.titlebutton):active,\n.terminal-window.root headerbar button:not(.titlebutton):checked:hover,\n.terminal-window.remote headerbar button:not(.titlebutton):checked:hover,\n.terminal-window.root headerbar button.titlebutton:hover,\n.terminal-window.remote headerbar button.titlebutton:hover {\n  background: alpha(white, 0.18);\n}\n\n.terminal-window.root headerbar button.titlebutton:active,\n.terminal-window.remote headerbar button.titlebutton:active {\n  background: alpha(white, 0.3);\n}\n\n.csd.popup decoration {  \nborder-radius: 12px; \nbox-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2), 0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12);\n}\n\n\nmenu, .menu, .context-menu { \n  margin: 4px; \n  padding: 6px 6px; \n}\n    \n.csd menu, .csd .menu, .csd .context-menu { \n  border: none; \n  border-radius: 12px; \n}\n  \nmenu menuitem, .menu menuitem, .context-menu menuitem {\n  margin: 0;\n  border-radius: 6px;\n  padding: 7px 6px;\n}\n    \nmenu separator {margin: 6px 0}\n\nmenubar menu, wxMenu   {\n  padding: 6px;\n  border-radius: 12px\n}\n\nmenu menuitem arrow, .menu menuitem arrow, .context-menu menuitem arrow {\ncolor: #c2c2c2;\n}\n"
+    }
+}
