@@ -3,7 +3,7 @@
     "variables": {
         "accent_color": "rgb(140, 170, 238)",
         "accent_bg_color": "rgb(140, 170, 238)",
-        "accent_fg_color": "rgb(48, 52, 70)",
+        "accent_fg_color": "rgb(255, 255, 255)",
         "destructive_color": "rgb(231, 130, 132)",
         "destructive_bg_color": "rgb(231, 130, 132)",
         "destructive_fg_color": "rgb(48, 52, 70)",
