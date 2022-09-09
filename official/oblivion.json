@@ -1,5 +1,5 @@
 {
-    "name": "Oblivion",
+    "name": "oblivion-new",
     "variables": {
         "accent_color": "#696d6b",
         "accent_bg_color": "#888a85",
@@ -22,18 +22,18 @@
         "view_fg_color": "#d3d7cf",
         "headerbar_bg_color": "#3c4243",
         "headerbar_fg_color": "#d3d7cf",
-        "headerbar_border_color": "#ffffff",
+        "headerbar_border_color": "#d3d7cf",
         "headerbar_backdrop_color": "@window_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
-        "card_bg_color": "#3f4446",
+        "card_bg_color": "rgba(255, 255, 255, 0.08)",
         "card_fg_color": "#d3d7cf",
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
-        "dialog_bg_color": "#2e3436",
+        "dialog_bg_color": "#3d4244",
         "dialog_fg_color": "#d3d7cf",
         "popover_bg_color": "#3d4244",
         "popover_fg_color": "#d3d7cf",
-        "shade_color": "#383838",
-        "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
+        "shade_color": "rgba(0,0,0,0.36)",
+        "scrollbar_outline_color": "rgba(0,0,0,0.5)"
     },
     "palette": {
         "blue_": {
