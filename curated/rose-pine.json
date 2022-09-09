@@ -30,9 +30,9 @@
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
         "dialog_bg_color": "#26233a",
         "dialog_fg_color": "#e0def4",
-        "popover_bg_color": "##26233a",
+        "popover_bg_color": "#26233a",
         "popover_fg_color": "#e0def4",
-        "shade_color": "##26233a",
+        "shade_color": "#26233a",
         "scrollbar_outline_color": "rgba(33, 32, 46, 0.5)"
     },
     "palette": {
