@@ -2,6 +2,10 @@
 
 <!-- comments -->
 
+## Description
+
+<!-- will be used in the preset list -->
+
 ## Screenshots (optional)
 
 <!-- Will be used in showcase -->
