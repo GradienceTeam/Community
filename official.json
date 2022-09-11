@@ -15,5 +15,9 @@
   "Solarized Dark": "https://github.com/GradienceTeam/Community/raw/next/official/solarized-dark.json",
   "Tango": "https://github.com/GradienceTeam/Community/raw/next/official/tango.json",
   "Gruvbox Light": "https://github.com/GradienceTeam/Community/raw/next/official/gruvbox-light.json",
-  "Gruvbox Dark": "https://github.com/GradienceTeam/Community/raw/next/official/gruvbox-dark.json"
+  "Gruvbox Dark": "https://github.com/GradienceTeam/Community/raw/next/official/gruvbox-dark.json",
+  "Catppuccin Latte": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-latte.json",
+  "Catppuccin Frappé": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-frappé.json",
+  "Catppuccin Macchiato": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-macchiato.json",
+  "Catppuccin Mocha": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-mocha.json"
 }
