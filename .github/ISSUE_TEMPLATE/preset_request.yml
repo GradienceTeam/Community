@@ -2,6 +2,8 @@ name: "💡 Preset request"
 description: Suggest an preset
 title: "feat: "
 labels: ["enhancement", "preset request"]
+assignees:
+  - daudix-UFO
 body:
   - type: markdown
     attributes:
