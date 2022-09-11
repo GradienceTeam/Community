@@ -6,6 +6,12 @@
 
 <!-- will be used in the preset list -->
 
+## Palette
+  
+<!-- a color palette used for this preset -->
+
+- [ ] None
+  
 ## Screenshots (optional)
 
 <!-- Will be used in showcase -->
