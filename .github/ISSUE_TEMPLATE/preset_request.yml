@@ -18,7 +18,7 @@ body:
     id: additional
     attributes:
       label: Additional Context
-      description: "List any other information that is relevant to your request, such as perfered color variant, color of specific element and etc.
+      description: List any other information that is relevant to your request, such as perfered color variant, color of specific element and etc.
     validations:
       required: false
   - type: checkboxes
