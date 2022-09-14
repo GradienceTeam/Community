@@ -14,9 +14,9 @@ Your Preset can be stored in:
 
 ## Preset stored in the official `repo` (recommended)
 
-In your Pull Request, add your Preset in the `presets` folder
+In your Pull Request, add your Preset in the `curated` folder
 
-Don't touch to `presets.json` because it's automatically generated.
+Don't touch to `curated.json` because it's automatically generated.
 
 ## Preset stored somewhere else
 
@@ -24,7 +24,7 @@ Don't touch to `presets.json` because it's automatically generated.
 
 A repo is a file where you list all of your presets. It can be stored everywhere after creating your repo, you can share it and enable it in `Preferences`
 
-Store a file with a similar formatting to `presets.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
+Store a file with a similar formatting to `curated.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
 
 ```json
 {
