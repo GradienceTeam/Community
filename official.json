@@ -1,5 +1,5 @@
 {
-  "presets":  {
+
     "Pretty Purple": "https://github.com/GradienceTeam/Community/raw/next/official/pretty-purple.json",
     "Builder Light": "https://github.com/GradienceTeam/Community/raw/next/official/builder-light.json",
     "Builder Dark": "https://github.com/GradienceTeam/Community/raw/next/official/builder-dark.json",
@@ -21,6 +21,5 @@
     "Catppuccin Frappé": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-frappé.json",
     "Catppuccin Macchiato": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-macchiato.json",
     "Catppuccin Mocha": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-mocha.json"
-  },
-  "badge": "gold"
+  
 }
