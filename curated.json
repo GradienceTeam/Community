@@ -1,5 +1,5 @@
 {
-  "presets": {
+
     "Synthwave": "https://github.com/GradienceTeam/Community/raw/next/curated/synthwave.json",
     "Gruvbox": "https://github.com/GradienceTeam/Community/raw/next/curated/gruvbox.json",
     "Rosé Pine": "https://github.com/GradienceTeam/Community/raw/next/curated/rose-pine.json",
@@ -22,6 +22,5 @@
     "Cyberhack": "https://github.com/GradienceTeam/Community/raw/next/curated/cyberhack.json",
     "Zenburn": "https://github.com/GradienceTeam/Community/raw/next/curated/zenburn.json",
     "Crystal Clear": "https://github.com/GradienceTeam/Community/raw/next/curated/crystal-clear.json"
-  },
-  "badge": "gold"
+
 }
