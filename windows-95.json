@@ -1,0 +1,107 @@
+{
+    "name": "Windows 95",
+    "variables": {
+        "accent_color": "rgb(0,128,128)",
+        "accent_bg_color": "rgb(0,128,128)",
+        "accent_fg_color": "#ffffff",
+        "destructive_color": "rgb(255,0,0)",
+        "destructive_bg_color": "rgb(255,0,0)",
+        "destructive_fg_color": "#ffffff",
+        "success_color": "rgb(0,255,0)",
+        "success_bg_color": "rgb(0,255,0)",
+        "success_fg_color": "rgb(0,0,0)",
+        "warning_color": "rgb(255,255,0)",
+        "warning_bg_color": "rgb(255,255,0)",
+        "warning_fg_color": "rgb(0,0,0)",
+        "error_color": "rgb(255,0,0)",
+        "error_bg_color": "rgb(255,0,0)",
+        "error_fg_color": "#ffffff",
+        "window_bg_color": "rgb(192,192,192)",
+        "window_fg_color": "rgb(0,0,0)",
+        "view_bg_color": "rgb(255,255,255)",
+        "view_fg_color": "rgb(0,0,0)",
+        "headerbar_bg_color": "rgb(0,0,128)",
+        "headerbar_fg_color": "rgb(255,255,255)",
+        "headerbar_border_color": "rgb(192,192,192)",
+        "headerbar_backdrop_color": "rgb(128,128,128)",
+        "headerbar_shade_color": "rgba(0, 0, 0, 0.07)",
+        "card_bg_color": "rgb(192,192,192)",
+        "card_fg_color": "rgb(0,0,0)",
+        "card_shade_color": "rgb(128,128,128)",
+        "dialog_bg_color": "rgb(192,192,192)",
+        "dialog_fg_color": "rgb(0,0,0)",
+        "popover_bg_color": "rgb(192,192,192)",
+        "popover_fg_color": "rgb(0,0,0)",
+        "shade_color": "rgba(0,0,0,0.07)",
+        "scrollbar_outline_color": "rgb(128,128,128)"
+    },
+    "palette": {
+        "blue_": {
+            "1": "rgb(127,191,255)",
+            "2": "rgb(85,159,255)",
+            "3": "rgb(42,127,255)",
+            "4": "rgb(0,127,255)",
+            "5": "rgb(42,95,170)"
+        },
+        "green_": {
+            "1": "rgb(127,255,170)",
+            "2": "rgb(42,223,85)",
+            "3": "rgb(42,191,85)",
+            "4": "rgb(0,191,85)",
+            "5": "rgb(42,159,85)"
+        },
+        "yellow_": {
+            "1": "rgb(255,255,85)",
+            "2": "rgb(255,223,85)",
+            "3": "rgb(255,223,85)",
+            "4": "rgb(255,191,0)",
+            "5": "rgb(212,159,0)"
+        },
+        "orange_": {
+            "1": "rgb(255,191,85)",
+            "2": "rgb(255,159,85)",
+            "3": "rgb(255,127,0)",
+            "4": "rgb(212,95,0)",
+            "5": "rgb(212,63,0)"
+        },
+        "red_": {
+            "1": "rgb(255,95,85)",
+            "2": "rgb(255,63,85)",
+            "3": "rgb(212,0,0)",
+            "4": "rgb(170,0,0)",
+            "5": "rgb(128,0,0)"
+        },
+        "purple_": {
+            "1": "rgb(255,127,255)",
+            "2": "rgb(170,95,170)",
+            "3": "rgb(127,63,170)",
+            "4": "rgb(127,31,170)",
+            "5": "rgb(85,31,170)"
+        },
+        "brown_": {
+            "1": "rgb(212,191,170)",
+            "2": "rgb(170,127,85)",
+            "3": "rgb(170,95,0)",
+            "4": "rgb(127,95,85)",
+            "5": "rgb(85,63,0)"
+        },
+        "light_": {
+            "1": "rgb(255,255,255)",
+            "2": "rgb(255,251,240)",
+            "3": "rgb(192,192,192)",
+            "4": "rgb(160,160,164)",
+            "5": "rgb(128,128,128)"
+        },
+        "dark_": {
+            "1": "rgb(128,128,128)",
+            "2": "rgb(85,63,85)",
+            "3": "rgb(42,63,85)",
+            "4": "rgb(42,31,85)",
+            "5": "rgb(0,0,0)"
+        }
+    },
+    "custom_css": {
+        "gtk4": "",
+        "gtk3": ""
+    }
+}
