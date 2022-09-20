@@ -1,9 +1,9 @@
 {
     "name": "Catppuccin Mocha",
     "variables": {
-        "accent_color": "rgb(88, 91, 112)",
-        "accent_bg_color": "rgb(69, 71, 90)",
-        "accent_fg_color": "rgb(205, 214, 244)",
+        "accent_color": "rgb(147, 153, 178)",
+        "accent_bg_color": "rgb(127, 132, 156)",
+        "accent_fg_color": "rgb(30, 30, 46)",
         "destructive_color": "rgb(238, 153, 160)",
         "destructive_bg_color": "rgb(237, 135, 150)",
         "destructive_fg_color": "rgb(205, 214, 244)",
