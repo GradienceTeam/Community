@@ -1,9 +1,9 @@
 {
     "name": "Catppuccin Latte",
     "variables": {
-        "accent_color": "rgb(124, 127, 147)",
-        "accent_bg_color": "rgb(140, 143, 161)",
-        "accent_fg_color": "rgb(239,241,245)",
+        "accent_color": "rgb(172, 176, 190)",
+        "accent_bg_color": "rgb(188, 192, 204)",
+        "accent_fg_color": "rgb(76, 79, 105)",
         "destructive_color": "rgb(210, 15, 57)",
         "destructive_bg_color": "rgb(230, 69, 83)",
         "destructive_fg_color": "#eff1f5",

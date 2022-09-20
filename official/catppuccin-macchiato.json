@@ -1,9 +1,9 @@
 {
     "name": "Catppuccin Macchiato",
     "variables": {
-        "accent_color": "rgb(147, 154, 183)",
-        "accent_bg_color": "rgb(128, 135, 162)",
-        "accent_fg_color": "rgb(36, 39, 58)",
+        "accent_color": "rgb(91, 96, 120)",
+        "accent_bg_color": "rgb(73, 77, 100)",
+        "accent_fg_color": "rgb(202, 211, 245)",
         "destructive_color": "rgb(238, 153, 160)",
         "destructive_bg_color": "rgb(237, 135, 150)",
         "destructive_fg_color": "rgb(202, 211, 245)",
