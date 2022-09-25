@@ -1,8 +1,8 @@
 {
     "name": "Catppuccin Frappé",
     "variables": {
-        "accent_color": "rgb(98, 104, 128)",
-        "accent_bg_color": "rgb(81, 87, 109)",
+        "accent_color": "rgb(81, 87, 109)",
+        "accent_bg_color": "rgb(65, 69, 89)",
         "accent_fg_color": "rgb(198, 208, 245)",
         "destructive_color": "rgb(234, 153, 156)",
         "destructive_bg_color": "rgb(231, 130, 132)",

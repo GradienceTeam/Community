@@ -1,5 +1,4 @@
 {
-
     "Synthwave": "https://github.com/GradienceTeam/Community/raw/next/curated/synthwave.json",
     "Gruvbox": "https://github.com/GradienceTeam/Community/raw/next/curated/gruvbox.json",
     "Rosé Pine": "https://github.com/GradienceTeam/Community/raw/next/curated/rose-pine.json",
@@ -21,6 +20,8 @@
     "Jungle Jaunt": "https://github.com/GradienceTeam/Community/raw/next/curated/jungle-jaunt.json",
     "Cyberhack": "https://github.com/GradienceTeam/Community/raw/next/curated/cyberhack.json",
     "Zenburn": "https://github.com/GradienceTeam/Community/raw/next/curated/zenburn.json",
-    "Crystal Clear": "https://github.com/GradienceTeam/Community/raw/next/curated/crystal-clear.json"
-
+    "Crystal Clear": "https://github.com/GradienceTeam/Community/raw/next/curated/crystal-clear.json",
+    "Windows 95": "https://github.com/GradienceTeam/Community/raw/next/curated/windows-95.json",
+    "Pop Light": "https://github.com/GradienceTeam/Community/raw/next/curated/pop-light.json",
+    "Pop Dark": "https://github.com/GradienceTeam/Community/raw/next/curated/pop-dark.json"
 }
