@@ -1,0 +1,29 @@
+name: "📝️🚧️ Schema Change Proposal"
+description: Propose a change in current presets schema, or in the way presets are implemented
+title: "propose: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to contribute!
+
+  - type: textarea
+    id: proposal-body
+    attributes:
+      label: Proposal body
+      description: A clear and concise proposal text.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the proposal here.
+
+  - type: checkboxes
+    attributes:
+      label: Did you read the Code of Conduct?
+      options:
+        - label: I have read the [Code of Conduct](https://github.com/GradienceTeam/Gradience/blob/main/CODE_OF_CONDUCT.md).
+          required: true
