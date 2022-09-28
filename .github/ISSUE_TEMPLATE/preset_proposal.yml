@@ -1,4 +1,4 @@
-name: "📝️🚧️ Schema Change Proposal"
+name: "📝️ Change proposal"
 description: Propose a change in current presets schema, or in the way presets are implemented
 title: "propose: "
 labels: ["enhancement"]
