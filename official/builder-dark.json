@@ -1,5 +1,6 @@
 {
     "name": "Builder Dark",
+    "badges": ["classic"],
     "variables": {
         "accent_color": "#41606f",
         "accent_bg_color": "#4186a8",
