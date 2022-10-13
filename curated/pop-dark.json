@@ -1,9 +1,9 @@
 {
-    "name": "Cobalt Dark",
+    "name": "Pop Dark",
     "variables": {
-        "accent_color": "#1963a3",
-        "accent_bg_color": "#0088ff",
-        "accent_fg_color": "#ffffff",
+        "accent_color": "rgb(242,140,42)",
+        "accent_bg_color": "rgb(251,184,108)",
+        "accent_fg_color": "rgb(48,48,48)",
         "destructive_color": "#ff7b63",
         "destructive_bg_color": "#c01c28",
         "destructive_fg_color": "#ffffff",
@@ -15,25 +15,25 @@
         "warning_fg_color": "rgba(0, 0, 0, 0.8)",
         "error_color": "#ff7b63",
         "error_bg_color": "#c01c28",
-        "error_fg_color": "#ffffff",
-        "window_bg_color": "#001b33",
+        "error_fg_color": "rgb(54,54,54)",
+        "window_bg_color": "rgb(48,48,48)",
         "window_fg_color": "#ffffff",
-        "view_bg_color": "rgb(0,27,51)",
-        "view_fg_color": "rgb(255,255,255)",
-        "headerbar_bg_color": "#162e44",
+        "view_bg_color": "rgb(43,43,43)",
+        "view_fg_color": "#ffffff",
+        "headerbar_bg_color": "rgb(54,54,54)",
         "headerbar_fg_color": "#ffffff",
         "headerbar_border_color": "#ffffff",
-        "headerbar_backdrop_color": "@window_bg_color",
+        "headerbar_backdrop_color": "rgb(54,54,54)",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
-        "card_bg_color": "#142d43",
+        "card_bg_color": "rgb(39,39,39)",
         "card_fg_color": "#ffffff",
-        "card_shade_color": "rgba(0, 0, 0, 0.36)",
-        "dialog_bg_color": "#001b33",
+        "card_shade_color": "rgba(0,0,0,0.36)",
+        "dialog_bg_color": "#383838",
         "dialog_fg_color": "#ffffff",
-        "popover_bg_color": "#122b41",
+        "popover_bg_color": "rgb(43,43,43)",
         "popover_fg_color": "#ffffff",
-        "shade_color": "#383838",
-        "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
+        "shade_color": "rgba(0,0,0,0.36)",
+        "scrollbar_outline_color": "rgba(0,0,0,0.5)"
     },
     "palette": {
         "blue_": {
@@ -101,7 +101,7 @@
         }
     },
     "custom_css": {
-        "gtk4": "",
+        "gtk4": "windowcontrols image {\n    background-color: transparent;\n}\n/* If you want to keep the circles when you hover: */\nwindowcontrols image:hover {\n    background-color: alpha(@headerbar_fg_color, 0.16);\n}\n/* When the buttons are pushed down: */\nwindowcontrols image:active {\n    background-color: alpha(@headerbar_fg_color, 0.10);\n}\nheaderbar windowcontrols button.close image {\n    background-color: #f28c2a;\n}\nheaderbar windowcontrols button.close image:hover {\n    background-color: #5e5e5e;\n}\nheaderbar windowcontrols button.close image:active {\n    background-color: alpha(@headerbar_fg_color, 0.10);\n}\nheaderbar:backdrop windowcontrols button.close image {\n    background-color: transparent;\n}\nheaderbar:backdrop windowcontrols button.close image:hover {\n    background-color: alpha(@headerbar_fg_color, 0.10);\n}\nswitch slider {\n    background-color: #363636;\n}\nswitch {\n    background-color: #686868;\n}\nswitch:checked {\n    background-color: #fbb86c;\n}\ncheckbutton check:checked{\n    color: #363636;\n}\nscale highlight{\n    background-color: #94ebeb;\n\n}\nscale slider{\n    background-color: #94ebeb;\n}\nlist row.activatable:selected{\n     color: @dark_5;\n     background-color: #94ebeb;\n}\nwindow{\n     border-bottom-left-radius: 5px;\n     border-bottom-right-radius: 5px;\n     border-top-left-radius: 5px;\n     border-top-right-radius: 5px;\n}",
         "gtk3": ""
     }
 }

@@ -1,24 +1,26 @@
 name: "💡 Preset request"
 description: Suggest an preset
-title: "feat: "
+title: "preset: "
 labels: ["enhancement", "preset request"]
+assignees:
+  - daudix-UFO
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to contribute! Contributions are what make the open-source and the GNOME community such an amazing place to learn, and create. Any contributions you make will benefit everybody else and are greatly appreciated.
+        Thanks for taking the time to contribute!
   - type: textarea
     id: description
     attributes:
-      label: Feature description
-      description: A clear and concise description of what the feature request is. Please include links to the original theme or pictures or example code
+      label: Preset description
+      description: A clear and concise description of what preset is requested. Please include link to the original color palette
     validations:
       required: true
   - type: textarea
     id: additional
     attributes:
       label: Additional Context
-      description: "List any other information that is relevant to your issue. Stack traces, related issues, suggestions on how to add, use case, Stack Overflow links, forum links, screenshots, OS if applicable, etc."
+      description: List any other information that is relevant to your request, such as perfered color variant, color of specific element and etc.
     validations:
       required: false
   - type: checkboxes

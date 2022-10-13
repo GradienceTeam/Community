@@ -1,0 +1,66 @@
+name: "🐛 Preset issue"
+description: If you found an issue with a preset
+title: "preset: "
+labels: ["bug"]
+assignees:
+  - daudix-UFO
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to contribute!
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue
+      description: A clear and concise description of the issue 
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+      
+  - type: markdown
+    attributes:
+      value: "## System"
+
+  - type: input
+    attributes:
+      label: OS
+      description: On which system do you run the app?
+      placeholder: Fedora Linux 36 (Workstation Edition)
+
+  - type: input
+    attributes:
+      label: Version
+      description: Which version of the app do you use?
+      placeholder: "1.2.0"
+
+  - type: dropdown
+    attributes:
+      label: Installation method
+      description: How did you install Gradience ?
+      options:
+        - Flatpak from Flathub
+        - Flatpak from Github Actions - main
+        - Flatpak from GitHub Actions - next 
+        - Flatpak from manual build - main
+        - Flatpak from manual build - next
+        - AUR
+        - Manual using meson - main
+        - Manual using meson - next
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+  - type: checkboxes
+    attributes:
+      label: Did you read the Code of Conduct?
+      options:
+        - label: I have read the [Code of Conduct](https://github.com/GradienceTeam/Gradience/blob/main/CODE_OF_CONDUCT.md).
+          required: true

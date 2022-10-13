@@ -1,46 +1,8 @@
-# Community
-
-[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#Gradience:matrix.org)
-[![Chat on Discord](https://img.shields.io/discord/1013779899821064202?label=discord&logo=discord&logoColor=white)](https://discord.com/invite/MYa8Sr7btJ)
-
-Add your Presets to `Explore` tab
-
-# How to add
-
-Your Preset can be stored in:
-
-1. this `repo`
-2. in your `repo`
-
-## Preset stored in the official `repo` (recommended)
-
-In your Pull Request, add your Preset in the `curated` folder
-
-Don't touch to `curated.json` because it's automatically generated.
-
-## Preset stored somewhere else
-
-### What's a repo ?
-
-A repo is a file where you list all of your presets. It can be stored everywhere after creating your repo, you can share it and enable it in `Preferences`
-
-Store a file with a similar formatting to `curated.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
-
-```json
 {
-  "My Awesome Preset": "https://my.website.me/my-awesome-preset.json"
-}
-```
-Add a link to your `repo` in `Preferences` > `Repo`
-
-# Preset example
-```json
-{
-    // The name should be written as shown, in PascalCase, but with spaces between words
-    "name": "Preset Name", 
+    "name": "Peninsula Dark",
     "variables": {
-        "accent_color": "#78aeed",
-        "accent_bg_color": "#3584e4",
+        "accent_color": "#405a7d",
+        "accent_bg_color": "#3169b0",
         "accent_fg_color": "#ffffff",
         "destructive_color": "#ff7b63",
         "destructive_bg_color": "#c01c28",
@@ -54,22 +16,22 @@ Add a link to your `repo` in `Preferences` > `Repo`
         "error_color": "#ff7b63",
         "error_bg_color": "#c01c28",
         "error_fg_color": "#ffffff",
-        "window_bg_color": "#242424",
-        "window_fg_color": "#ffffff",
-        "view_bg_color": "#1e1e1e",
-        "view_fg_color": "#ffffff",
-        "headerbar_bg_color": "#303030",
-        "headerbar_fg_color": "#ffffff",
-        "headerbar_border_color": "#ffffff",
+        "window_bg_color": "#292a30",
+        "window_fg_color": "#dfdfe0",
+        "view_bg_color": "#292a30",
+        "view_fg_color": "#dfdfe0",
+        "headerbar_bg_color": "#38393f",
+        "headerbar_fg_color": "#dfdfe0",
+        "headerbar_border_color": "#dfdfe0",
         "headerbar_backdrop_color": "@window_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
         "card_bg_color": "rgba(255, 255, 255, 0.08)",
-        "card_fg_color": "#ffffff",
+        "card_fg_color": "#dfdfe0",
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
-        "dialog_bg_color": "#383838",
-        "dialog_fg_color": "#ffffff",
-        "popover_bg_color": "#383838",
-        "popover_fg_color": "#ffffff",
+        "dialog_bg_color": "#38393f",
+        "dialog_fg_color": "#dfdfe0",
+        "popover_bg_color": "#38393f",
+        "popover_fg_color": "#dfdfe0",
         "shade_color": "rgba(0,0,0,0.36)",
         "scrollbar_outline_color": "rgba(0,0,0,0.5)"
     },
@@ -143,4 +105,3 @@ Add a link to your `repo` in `Preferences` > `Repo`
         "gtk3": ""
     }
 }
-```
