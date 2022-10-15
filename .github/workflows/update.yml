@@ -25,4 +25,5 @@ jobs:
           git config user.name "GradienceBot"
           git config user.email "AdwCustomizerTeam@proton.me"
           git add .
-          git commit -m "ci: update presets for their repo"
+          # added | true so, the worklow will not fail if there is nothing to committ
+          git commit -m "ci: update presets for their repo" | true
