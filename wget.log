@@ -1,0 +1,24 @@
+--2022-10-15 17:15:40--  https://raw.githubusercontent.com/gradience-presets/yaru/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3043 (3,0K) [text/plain]
+Saving to: ‘curated/yaru.json’
+
+     0K ..                                                    100% 34,7M=0s
+
+2022-10-15 17:15:40 (34,7 MB/s) - ‘curated/yaru.json’ saved [3043/3043]
+
+--2022-10-15 17:15:40--  https://raw.githubusercontent.com/gradience-presets/tango/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3013 (2,9K) [text/plain]
+Saving to: ‘official/tango.json’
+
+     0K ..                                                    100% 33,9M=0s
+
+2022-10-15 17:15:40 (33,9 MB/s) - ‘official/tango.json’ saved [3013/3013]
+
