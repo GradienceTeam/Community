@@ -25,11 +25,11 @@ mkdir -p official
 
 echo "{" > official.json
 i=0
-for preset in "${curated[@]}"; do
+for preset in "${official[@]}"; do
   i=$((i+1))
   url="$BASE_URL/$preset/$BRANCH/$DEFAULT_FILENAME"
-  wget "$url" -O "curated/${preset}.json" -a wget.log
-  if [[ $i == "${#curated[@]}" ]]; then
+  wget "$url" -O "official/${preset}.json" -a wget.log
+  if [[ $i == "${#official[@]}" ]]; then
     echo "  \"$preset\": \"$url\"" >> official.json
   else
     echo "  \"$preset\": \"$url\"," >> official.json
