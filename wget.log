@@ -1,0 +1,156 @@
+--2022-10-15 17:28:41--  https://raw.githubusercontent.com/gradience-presets/yaru/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3043 (3,0K) [text/plain]
+Saving to: ‘curated/yaru.json’
+
+     0K ..                                                    100% 38,6M=0s
+
+2022-10-15 17:28:42 (38,6 MB/s) - ‘curated/yaru.json’ saved [3043/3043]
+
+--2022-10-15 17:28:42--  https://raw.githubusercontent.com/gradience-presets/tango/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3013 (2,9K) [text/plain]
+Saving to: ‘curated/tango.json’
+
+     0K ..                                                    100% 37,6M=0s
+
+2022-10-15 17:28:42 (37,6 MB/s) - ‘curated/tango.json’ saved [3013/3013]
+
+--2022-10-15 17:28:42--  https://raw.githubusercontent.com/gradience-presets/alpha-black/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4060 (4,0K) [text/plain]
+Saving to: ‘curated/alpha-black.json’
+
+     0K ...                                                   100% 11,6M=0s
+
+2022-10-15 17:28:42 (11,6 MB/s) - ‘curated/alpha-black.json’ saved [4060/4060]
+
+--2022-10-15 17:28:42--  https://raw.githubusercontent.com/gradience-presets/alpha-mac/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.108.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.109.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4297 (4,2K) [text/plain]
+Saving to: ‘curated/alpha-mac.json’
+
+     0K ....                                                  100% 33,3M=0s
+
+2022-10-15 17:28:42 (33,3 MB/s) - ‘curated/alpha-mac.json’ saved [4297/4297]
+
+--2022-10-15 17:28:42--  https://raw.githubusercontent.com/gradience-presets/alpha-dark/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.108.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 4064 (4,0K) [text/plain]
+Saving to: ‘curated/alpha-dark.json’
+
+     0K ...                                                   100% 38,4M=0s
+
+2022-10-15 17:28:42 (38,4 MB/s) - ‘curated/alpha-dark.json’ saved [4064/4064]
+
+--2022-10-15 17:28:42--  https://raw.githubusercontent.com/gradience-presets/catppuccin-frappe/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3278 (3,2K) [text/plain]
+Saving to: ‘curated/catppuccin-frappe.json’
+
+     0K ...                                                   100% 29,6M=0s
+
+2022-10-15 17:28:42 (29,6 MB/s) - ‘curated/catppuccin-frappe.json’ saved [3278/3278]
+
+--2022-10-15 17:28:42--  https://raw.githubusercontent.com/gradience-presets/catppuccin-latte/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.108.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3237 (3,2K) [text/plain]
+Saving to: ‘curated/catppuccin-latte.json’
+
+     0K ...                                                   100% 30,9M=0s
+
+2022-10-15 17:28:43 (30,9 MB/s) - ‘curated/catppuccin-latte.json’ saved [3237/3237]
+
+--2022-10-15 17:28:43--  https://raw.githubusercontent.com/gradience-presets/cyberhack/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3102 (3,0K) [text/plain]
+Saving to: ‘curated/cyberhack.json’
+
+     0K ...                                                   100% 31,1M=0s
+
+2022-10-15 17:28:43 (31,1 MB/s) - ‘curated/cyberhack.json’ saved [3102/3102]
+
+--2022-10-15 17:28:43--  https://raw.githubusercontent.com/gradience-presets/crystal-clear/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3102 (3,0K) [text/plain]
+Saving to: ‘curated/crystal-clear.json’
+
+     0K ...                                                   100% 9,57M=0s
+
+2022-10-15 17:28:43 (9,57 MB/s) - ‘curated/crystal-clear.json’ saved [3102/3102]
+
+--2022-10-15 17:28:43--  https://raw.githubusercontent.com/gradience-presets/dracula/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3026 (3,0K) [text/plain]
+Saving to: ‘curated/dracula.json’
+
+     0K ..                                                    100% 38,8M=0s
+
+2022-10-15 17:28:43 (38,8 MB/s) - ‘curated/dracula.json’ saved [3026/3026]
+
+--2022-10-15 17:28:43--  https://raw.githubusercontent.com/gradience-presets/nord/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.111.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2994 (2,9K) [text/plain]
+Saving to: ‘curated/nord.json’
+
+     0K ..                                                    100% 30,9M=0s
+
+2022-10-15 17:28:44 (30,9 MB/s) - ‘curated/nord.json’ saved [2994/2994]
+
+--2022-10-15 17:28:44--  https://raw.githubusercontent.com/gradience-presets/gruvbox/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3217 (3,1K) [text/plain]
+Saving to: ‘curated/gruvbox.json’
+
+     0K ...                                                   100% 39,1M=0s
+
+2022-10-15 17:28:44 (39,1 MB/s) - ‘curated/gruvbox.json’ saved [3217/3217]
+
+--2022-10-15 17:28:44--  https://raw.githubusercontent.com/gradience-presets/tango/main/preset.json
+Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3013 (2,9K) [text/plain]
+Saving to: ‘official/tango.json’
+
+     0K ..                                                    100% 35,5M=0s
+
+2022-10-15 17:28:44 (35,5 MB/s) - ‘official/tango.json’ saved [3013/3013]
+

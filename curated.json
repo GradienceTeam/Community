@@ -8,5 +8,7 @@
   "catppuccin-latte": "https://raw.githubusercontent.com/gradience-presets/catppuccin-latte/main/preset.json",
   "cyberhack": "https://raw.githubusercontent.com/gradience-presets/cyberhack/main/preset.json",
   "crystal-clear": "https://raw.githubusercontent.com/gradience-presets/crystal-clear/main/preset.json",
-  "dracula": "https://raw.githubusercontent.com/gradience-presets/dracula/main/preset.json"
+  "dracula": "https://raw.githubusercontent.com/gradience-presets/dracula/main/preset.json",
+  "nord": "https://raw.githubusercontent.com/gradience-presets/nord/main/preset.json",
+  "gruvbox": "https://raw.githubusercontent.com/gradience-presets/gruvbox/main/preset.json"
 }
