@@ -10,5 +10,7 @@
   "crystal-clear": "https://raw.githubusercontent.com/gradience-presets/crystal-clear/main/preset.json",
   "dracula": "https://raw.githubusercontent.com/gradience-presets/dracula/main/preset.json",
   "nord": "https://raw.githubusercontent.com/gradience-presets/nord/main/preset.json",
-  "gruvbox": "https://raw.githubusercontent.com/gradience-presets/gruvbox/main/preset.json"
+  "gruvbox": "https://raw.githubusercontent.com/gradience-presets/gruvbox/main/preset.json",
+  "pop-dark": "https://raw.githubusercontent.com/gradience-presets/pop-dark/main/preset.json",
+  "pop-light": "https://raw.githubusercontent.com/gradience-presets/pop-light/main/preset.json"
 }
