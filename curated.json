@@ -1,3 +1,11 @@
 {
-  "yaru": "https://raw.githubusercontent.com/gradience-presets/yaru/main/preset.json"
+  "yaru": "https://raw.githubusercontent.com/gradience-presets/yaru/main/preset.json",
+  "tango": "https://raw.githubusercontent.com/gradience-presets/tango/main/preset.json",
+  "alpha-black": "https://raw.githubusercontent.com/gradience-presets/alpha-black/main/preset.json",
+  "alpha-mac": "https://raw.githubusercontent.com/gradience-presets/alpha-mac/main/preset.json",
+  "alpha-dark": "https://raw.githubusercontent.com/gradience-presets/alpha-dark/main/preset.json",
+  "catppuccin-frappe": "https://raw.githubusercontent.com/gradience-presets/catppuccin-frappe/main/preset.json",
+  "catppuccin-latte": "https://raw.githubusercontent.com/gradience-presets/catppuccin-latte/main/preset.json",
+  "cyberhack": "https://raw.githubusercontent.com/gradience-presets/cyberhack/main/preset.json",
+  "crystal-clear": "https://raw.githubusercontent.com/gradience-presets/crystal-clear/main/preset.json"
 }

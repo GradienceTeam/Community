@@ -1,4 +1,4 @@
-curated=("yaru")
+curated=("yaru" "tango" "alpha-black" "alpha-mac" "alpha-dark" "catppuccin-frappe" "catppuccin-latte" "cyberhack" "crystal-clear")
 official=("tango")
 
 BASE_URL="https://raw.githubusercontent.com/gradience-presets"
