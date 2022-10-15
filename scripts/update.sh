@@ -6,11 +6,33 @@ BRANCH="main"
 DEFAULT_FILENAME="preset.json"
 
 mkdir -p curated
+
+echo "{" > curated.json
+i=0
 for preset in "${curated[@]}"; do
-  wget "$BASE_URL/$preset/$BRANCH/$DEFAULT_FILENAME" -O "curated/${preset}.json" -a wget.log
+  i=$((i+1))
+  url="$BASE_URL/$preset/$BRANCH/$DEFAULT_FILENAME"
+  wget "$url" -O "curated/${preset}.json" -a wget.log
+  if [[ $i == "${#curated[@]}" ]]; then
+    echo "  \"$preset\": \"$url\"" >> curated.json
+  else
+    echo "  \"$preset\": \"$url\"," >> curated.json
+  fi
 done
+echo "}" >> curated.json
 
 mkdir -p official
-for preset in "${official[@]}"; do
-  wget "$BASE_URL/$preset/$BRANCH/$DEFAULT_FILENAME" -O "official/${preset}.json" -a wget.log
+
+echo "{" > official.json
+i=0
+for preset in "${curated[@]}"; do
+  i=$((i+1))
+  url="$BASE_URL/$preset/$BRANCH/$DEFAULT_FILENAME"
+  wget "$url" -O "curated/${preset}.json" -a wget.log
+  if [[ $i == "${#curated[@]}" ]]; then
+    echo "  \"$preset\": \"$url\"" >> official.json
+  else
+    echo "  \"$preset\": \"$url\"," >> official.json
+  fi
 done
+echo "}" >> official.json
