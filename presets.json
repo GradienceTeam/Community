@@ -43,6 +43,6 @@
     "Zenburn": "https://github.com/GradienceTeam/Community/raw/next/curated/zenburn.json",
     "Crystal Clear": "https://github.com/GradienceTeam/Community/raw/next/curated/crystal-clear.json",
     "Windows 95": "https://github.com/GradienceTeam/Community/raw/next/curated/windows-95.json",
-    "Pop Light": "https://github.com/GradienceTeam/Community/raw/next/curated/pop-light.json",
-    "Pop Dark": "https://github.com/GradienceTeam/Community/raw/next/curated/pop-dark.json"
+    "Pop Dark": "https://raw.githubusercontent.com/gradience-presets/pop-dark/main/preset.json",
+    "Pop Light": "https://raw.githubusercontent.com/gradience-presets/pop-light/main/preset.json"
 }
