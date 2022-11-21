@@ -1,7 +1,5 @@
 {
     "name": "Pretty Purple",
-    "description": "Something really pretty",
-    "badges": ["favourite", "editor-choice"],
     "variables": {
         "accent_color": "rgb(220,138,221)",
         "accent_bg_color": "rgb(145,65,172)",
@@ -34,7 +32,7 @@
         "dialog_fg_color": "#ffffff",
         "popover_bg_color": "rgb(36,31,49)",
         "popover_fg_color": "#ffffff",
-        "shade_color": "rgb(0,0,0)",
+        "shade_color": "rgba(0,0,0,0.36)",
         "scrollbar_outline_color": "rgb(0,0,0)"
     },
     "palette": {
@@ -101,5 +99,9 @@
             "4": "#241f31",
             "5": "#000000"
         }
+    },
+    "custom_css": {
+        "gtk4": "",
+        "gtk3": ""
     }
 }
