@@ -1,5 +1,7 @@
 {
     "name": "Pretty Purple",
+	"description": "Something really pretty",
+	"badges": ["favourite", "editor-choice"],
     "variables": {
         "accent_color": "rgb(220,138,221)",
         "accent_bg_color": "rgb(145,65,172)",
