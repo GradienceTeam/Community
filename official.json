@@ -19,5 +19,9 @@
     "Pretty Purple": "https://github.com/GradienceTeam/Community/raw/next/official/pretty-purple.json",
     "Solarized Dark": "https://github.com/GradienceTeam/Community/raw/next/official/solarized-dark.json",
     "Solarized": "https://github.com/GradienceTeam/Community/raw/next/official/solarized-light.json",
-    "Tango": "https://github.com/GradienceTeam/Community/raw/next/official/tango.json"
+    "Tango": "https://github.com/GradienceTeam/Community/raw/next/official/tango.json",
+    "Tokyo Night Dark": "https://github.com/GradienceTeam/Community/raw/next/official/tokyonight-dark.json",
+    "Tokyo Night Light": "https://github.com/GradienceTeam/Community/raw/next/official/tokyonight-light.json",
+    "Tokyo Night Moon": "https://github.com/GradienceTeam/Community/raw/next/official/tokyonight-moon.json",
+    "Tokyo Night Storm": "https://github.com/GradienceTeam/Community/raw/next/official/tokyonight-storm.json"
 }
