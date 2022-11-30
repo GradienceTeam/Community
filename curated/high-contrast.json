@@ -101,7 +101,7 @@
         }
     },
     "custom_css": {
-        "gtk4": "",
+        "gtk4": "window {\n  outline-color: #000000;\n  outline-width: 2px;\n}",
         "gtk3": ""
     },
     "plugins": {}
