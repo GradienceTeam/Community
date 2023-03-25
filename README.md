@@ -1,7 +1,7 @@
 # Community
 
-[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#Gradience:matrix.org)
-[![Chat on Discord](https://img.shields.io/discord/1013779899821064202?label=discord&logo=discord&logoColor=white)](https://discord.com/invite/rwNDGPJf)
+[![Chat on Matrix](https://img.shields.io/matrix/Gradience:matrix.org?color=%230dbd8b&label=Gradience&logo=matrix&logoColor=white)](https://matrix.to/#/#Gradience:matrix.org)
+[![Chat on Discord](https://dcbadge.vercel.app/api/server/4njFDtfGEZ?style=flat&theme=default-inverted)](https://discord.com/invite/4njFDtfGEZ)
 
 Add your Presets to `Explore` tab
 
