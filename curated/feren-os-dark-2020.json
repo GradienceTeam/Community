@@ -24,15 +24,15 @@
         "headerbar_fg_color": "#ffffff",
         "headerbar_border_color": "#000000",
         "headerbar_backdrop_color": "#222222",
-        "headerbar_shade_color": "rgba(0, 0, 0, 0.09)",
+        "headerbar_shade_color": "rgba(0, 0, 0, 0.19)",
         "card_bg_color": "#323232",
         "card_fg_color": "#ffffff",
-        "card_shade_color": "rgba(0, 0, 0, 0.09)",
+        "card_shade_color": "rgba(0, 0, 0, 0.19)",
         "dialog_bg_color": "#222222",
         "dialog_fg_color": "#ffffff",
         "popover_bg_color": "#323232",
         "popover_fg_color": "#ffffff",
-        "shade_color": "rgba(0, 0, 0, 0.09)",
+        "shade_color": "rgba(0, 0, 0, 0.19)",
         "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
     },
     "palette": {
