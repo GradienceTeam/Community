@@ -144,3 +144,7 @@ Add a link to your `repo` in `Preferences` > `Repo`
     }
 }
 ```
+
+# Credits
+
+Special thanks to [@dominichayesferen](https://github.com/dominichayesferen) for creating script for automatic preset list generation
