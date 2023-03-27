@@ -32,7 +32,7 @@
         "dialog_fg_color": "#292929",
         "popover_bg_color": "#ffffff",
         "popover_fg_color": "#292929",
-        "shade_color": "rgba(41, 41, 41, 0.09)",
+        "shade_color": "rgba(0, 0, 0, 0.07)",
         "scrollbar_outline_color": "#ffffff"
     },
     "palette": {
