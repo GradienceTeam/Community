@@ -22,8 +22,6 @@ name: Generate preset lists
 on:
   push:
     branches: [ "next" ]
-    paths: scripts/update-curated.py
-    paths: scripts/update-official.py
   schedule:
     - cron:  '0 0,12 * * *'
   workflow_dispatch:
