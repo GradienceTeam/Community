@@ -38,7 +38,7 @@ jobs:
       
       - name: Run the script
         run: python3 scripts/update-curated.py && python3 scripts/update-official.py
-      - name: Commit report
+      - name: Generate preset lists
         run: |
           git config --global user.name 'Gradience Team'
           git config --global user.email 'AdwCustomizerTeam@proton.me'
