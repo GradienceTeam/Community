@@ -12,13 +12,13 @@ Your Preset can be stored in:
 1. this `repo`
 2. in your `repo`
 
-## Preset stored in the official `repo` (recommended)
+## Preset stored in the official repo (this one, recommended)
 
 In your Pull Request, add your Preset in the `curated` folder
 
-Don't touch to `curated.json` because it's automatically generated.
+Don't edit `curated.json`, as it is automatically generated.
 
-## Preset stored somewhere else
+<!-- ## Preset stored somewhere else
 
 ### What's a repo ?
 
@@ -28,12 +28,13 @@ Store a file with a similar formatting to `curated.json`, it can be everywhere (
 
 ```json
 {
-  "My Awesome Preset": "https://my.website.me/my-awesome-preset.json"
+  "Awesome Preset": "https://example.org/awesome-preset.json"
 }
 ```
-Add a link to your `repo` in `Preferences` > `Repo`
+Add a link to your `repo` in `Preferences` > `Repo` --!>
 
 # Preset example
+
 ```json
 {
     // The name should be written as shown, in PascalCase, but with spaces between words
