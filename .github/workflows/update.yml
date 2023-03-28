@@ -31,41 +31,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Run the script
-        run: python3 scripts/update-curated.py && python3 scripts/update-official.py
-
-      - name: Generate preset lists
-        uses: peter-evans/create-pull-request@v4
-        with:
-          title: "ci: Generate preset lists"
-          copyright: "Gradience Team"
-          license: "GNU GPLv3"
-          author: "Gradience Team"
-          commiter: "Gradience Bot"
-          commiter_email: "AdwCustomizerTeam@proton.me"
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-
-
-name: Generate preset lists
-
-on:
-  push:
-    branches: [ "next" ]
-  schedule:
-    - cron:  '0 0,12 * * *'
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
       
       - uses: actions/setup-python@v4
         with:
