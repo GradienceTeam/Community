@@ -50,3 +50,32 @@ jobs:
           commiter_email: "AdwCustomizerTeam@proton.me"
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
+
+name: Generate preset lists
+
+on:
+  push:
+    branches: [ "next" ]
+  schedule:
+    - cron:  '0 0,12 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Run the script
+        run: python3 scripts/update-curated.py && python3 scripts/update-official.py
+      - name: Commit report
+        run: |
+          git config --global user.name 'Gradience Team'
+          git config --global user.email 'AdwCustomizerTeam@proton.me'
+          git commit -am "ci: Generate preset lists"
+          git push
