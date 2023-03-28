@@ -37,11 +37,4 @@ jobs:
           python-version: '3.10'
       
       - name: Run the script
-        run: python3 scripts/update-curated.py && python3 scripts/update-official.py
-      - name: Generate preset lists
-        run: |
-          git config --global user.name 'Gradience Team'
-          git config --global user.email 'AdwCustomizerTeam@proton.me'
-          git add -A
-          git commit -m "ci: Generate preset lists"
-          git push
+        run: sh scripts/generate-preset-lists.sh
