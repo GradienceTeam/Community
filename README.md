@@ -18,21 +18,6 @@ In your Pull Request, add your Preset in the `curated` folder
 
 Don't edit `curated.json`, as it is automatically generated.
 
-<!-- ## Preset stored somewhere else
-
-### What's a repo ?
-
-A repo is a file where you list all of your presets. It can be stored everywhere after creating your repo, you can share it and enable it in `Preferences`
-
-Store a file with a similar formatting to `curated.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
-
-```json
-{
-  "Awesome Preset": "https://example.org/awesome-preset.json"
-}
-```
-Add a link to your `repo` in `Preferences` > `Repo` --!>
-
 # Preset example
 
 ```json
