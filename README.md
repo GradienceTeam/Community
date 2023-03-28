@@ -7,13 +7,6 @@ Add your Presets to `Explore` tab
 
 # How to add
 
-Your Preset can be stored in:
-
-1. this `repo`
-2. in your `repo`
-
-## Preset stored in the official repo (this one, recommended)
-
 In your Pull Request, add your Preset in the `curated` folder
 
 Don't edit `curated.json`, as it is automatically generated.
