@@ -13,6 +13,8 @@ Don't edit `curated.json`, as it is automatically generated.
 
 # Preset example
 
+<details><summary>Click to expand</summary>
+
 ```json
 {
     // The name should be written as shown, in PascalCase, but with spaces between words
@@ -123,6 +125,7 @@ Don't edit `curated.json`, as it is automatically generated.
     }
 }
 ```
+</details>
 
 # Credits
 
