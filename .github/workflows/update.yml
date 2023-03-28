@@ -42,5 +42,6 @@ jobs:
         run: |
           git config --global user.name 'Gradience Team'
           git config --global user.email 'AdwCustomizerTeam@proton.me'
-          git commit -am "ci: Generate preset lists"
+          git add -A
+          git commit -m "ci: Generate preset lists"
           git push
