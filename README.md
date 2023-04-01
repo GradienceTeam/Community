@@ -18,10 +18,10 @@ Don't edit `curated.json`, as it is automatically generated.
 ```json
 {
     // The name should be written as shown, in PascalCase, but with spaces between words
-    "name": "Preset Name", 
+    "name": "Pretty Purple",
     "variables": {
-        "accent_color": "#78aeed",
-        "accent_bg_color": "#3584e4",
+        "accent_color": "#dc8add",
+        "accent_bg_color": "#9141ac",
         "accent_fg_color": "#ffffff",
         "destructive_color": "#ff7b63",
         "destructive_bg_color": "#c01c28",
@@ -35,11 +35,11 @@ Don't edit `curated.json`, as it is automatically generated.
         "error_color": "#ff7b63",
         "error_bg_color": "#c01c28",
         "error_fg_color": "#ffffff",
-        "window_bg_color": "#242424",
+        "window_bg_color": "#241f31",
         "window_fg_color": "#ffffff",
-        "view_bg_color": "#1e1e1e",
+        "view_bg_color": "#241f31",
         "view_fg_color": "#ffffff",
-        "headerbar_bg_color": "#303030",
+        "headerbar_bg_color": "#241f31",
         "headerbar_fg_color": "#ffffff",
         "headerbar_border_color": "#ffffff",
         "headerbar_backdrop_color": "@window_bg_color",
@@ -47,12 +47,12 @@ Don't edit `curated.json`, as it is automatically generated.
         "card_bg_color": "rgba(255, 255, 255, 0.08)",
         "card_fg_color": "#ffffff",
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
-        "dialog_bg_color": "#383838",
+        "dialog_bg_color": "#241f31",
         "dialog_fg_color": "#ffffff",
-        "popover_bg_color": "#383838",
+        "popover_bg_color": "#241f31",
         "popover_fg_color": "#ffffff",
-        "shade_color": "rgba(0,0,0,0.36)",
-        "scrollbar_outline_color": "rgba(0,0,0,0.5)"
+        "shade_color": "rgba(0, 0, 0, 0.36)",
+        "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
     },
     "palette": {
         "blue_": {
@@ -122,8 +122,10 @@ Don't edit `curated.json`, as it is automatically generated.
     "custom_css": {
         "gtk4": "",
         "gtk3": ""
-    }
+    },
+    "plugins": {}
 }
+
 ```
 </details>
 
