@@ -103,5 +103,6 @@
     "custom_css": {
         "gtk4": "",
         "gtk3": ""
-    }
+    },
+    "plugins": {}
 }
