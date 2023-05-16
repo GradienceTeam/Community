@@ -1,0 +1,108 @@
+{
+    "name": "Yaru Bark Dark",
+    "variables": {
+        "accent_color": "#787859",
+        "accent_bg_color": "#787859",
+        "accent_fg_color": "#ffffff",
+        "destructive_color": "#c7162b",
+        "destructive_bg_color": "#c7162b",
+        "destructive_fg_color": "#ffffff",
+        "success_color": "#219E34",
+        "success_bg_color": "#219E34",
+        "success_fg_color": "#ffffff",
+        "warning_color": "#F99B11",
+        "warning_bg_color": "#F99B11",
+        "warning_fg_color": "#ffffff",
+        "error_color": "#c7162b",
+        "error_bg_color": "#c7162b",
+        "error_fg_color": "#ffffff",
+        "window_bg_color": "#242424",
+        "window_fg_color": "#ffffff",
+        "view_bg_color": "#1e1e1e",
+        "view_fg_color": "#ffffff",
+        "headerbar_bg_color": "#303030",
+        "headerbar_fg_color": "#ffffff",
+        "headerbar_border_color": "#ffffff",
+        "headerbar_backdrop_color": "@window_bg_color",
+        "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
+        "card_bg_color": "rgba(255, 255, 255, 0.08)",
+        "card_fg_color": "#ffffff",
+        "card_shade_color": "rgba(0, 0, 0, 0.36)",
+        "dialog_bg_color": "#383838",
+        "dialog_fg_color": "#ffffff",
+        "popover_bg_color": "#383838",
+        "popover_fg_color": "#ffffff",
+        "shade_color": "rgba(0, 0, 0, 0.36)",
+        "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
+    },
+    "palette": {
+        "blue_": {
+            "1": "rgb(117,211,244)",
+            "2": "rgb(71,196,241)",
+            "3": "rgb(25,182,238)",
+            "4": "rgb(0,122,166)",
+            "5": "rgb(51,82,128)"
+        },
+        "green_": {
+            "1": "rgb(90,237,112)",
+            "2": "rgb(71,211,92)",
+            "3": "rgb(52,185,72)",
+            "4": "rgb(33,158,52)",
+            "5": "rgb(14,132,32)"
+        },
+        "yellow_": {
+            "1": "rgb(252,205,135)",
+            "2": "rgb(251,193,106)",
+            "3": "rgb(251,180,76)",
+            "4": "rgb(250,168,47)",
+            "5": "rgb(249,155,17)"
+        },
+        "orange_": {
+            "1": "rgb(242,152,121)",
+            "2": "rgb(240,135,99)",
+            "3": "rgb(237,118,77)",
+            "4": "rgb(235,101,54)",
+            "5": "rgb(233,84,32)"
+        },
+        "red_": {
+            "1": "rgb(234,72,92)",
+            "2": "rgb(222,55,76)",
+            "3": "rgb(211,39,59)",
+            "4": "rgb(199,22,43)",
+            "5": "rgb(169,18,36)"
+        },
+        "purple_": {
+            "1": "rgb(146,77,139)",
+            "2": "rgb(118,37,114)",
+            "3": "rgb(119,33,111)",
+            "4": "rgb(94,39,80)",
+            "5": "rgb(44,0,30)"
+        },
+        "brown_": {
+            "1": "rgb(225,178,137)",
+            "2": "rgb(197,151,110)",
+            "3": "rgb(170,123,83)",
+            "4": "rgb(142,96,56)",
+            "5": "rgb(114,68,29)"
+        },
+        "light_": {
+            "1": "rgb(255,255,255)",
+            "2": "rgb(247,247,247)",
+            "3": "rgb(204,204,204)",
+            "4": "rgb(174,167,159)",
+            "5": "rgb(135,135,135)"
+        },
+        "dark_": {
+            "1": "rgb(102,102,102)",
+            "2": "rgb(93,93,93)",
+            "3": "rgb(61,61,61)",
+            "4": "rgb(24,24,24)",
+            "5": "rgb(0,0,0)"
+        }
+    },
+    "custom_css": {
+        "gtk4": "popover.menu check,\npopover.menu radio {\n  transition: none;\n}\n\nlevelbar > trough > block.high, levelbar > trough > block:not(.empty) {\n  background-color: @success_color;\n}\n\n\nbutton.suggested-action {\n  color: @success_fg_color;\n}\n\n\nbutton.suggested-action:not(.flat),\nbutton.suggested-action:checked:not(.flat) {\n  background-color: @success_bg_color;\n}\n\n\nbutton.flat.suggested-action {\n  color: @success_color;\n}\n\nsplitbutton.suggested-action > button, splitbutton.suggested-action > menubutton > button {\n  color: @success_fg_color;\n}\n\nsplitbutton.suggested-action > button, splitbutton.suggested-action > button:checked, splitbutton.suggested-action > menubutton > button, splitbutton.suggested-action > menubutton > button:checked {\n  background-color: @success_bg_color;\n}\n\n\nbutton,\nlink {\n  font-weight: normal;\n}",
+        "gtk3": ""
+    },
+    "plugins": {}
+}
