@@ -1,0 +1,108 @@
+{
+    "name": "Abyssal Elementals",
+    "variables": {
+        "accent_color": "@red_1",
+        "accent_bg_color": "@red_2",
+        "accent_fg_color": "#fff",
+        "destructive_color": "@error_color",
+        "destructive_bg_color": "@error_bg_color",
+        "destructive_fg_color": "@error_fg_color",
+        "success_color": "@green_1",
+        "success_bg_color": "@green_2",
+        "success_fg_color": "#fff",
+        "warning_color": "@yellow_3",
+        "warning_bg_color": "@yellow_4",
+        "warning_fg_color": "#fff",
+        "error_color": "@purple_2",
+        "error_bg_color": "@purple_3",
+        "error_fg_color": "#fff",
+        "window_bg_color": "@dark_5",
+        "window_fg_color": "@light_2",
+        "view_bg_color": "shade(@card_bg_color , 1.06)",
+        "view_fg_color": "@card_fg_color",
+        "headerbar_bg_color": "shade(@window_bg_color  , .96)",
+        "headerbar_fg_color": "@light_1",
+        "headerbar_border_color": "@borders",
+        "headerbar_backdrop_color": "@headerbar_shade_color",
+        "headerbar_shade_color": "darker(@headerbar_bg_color)",
+        "card_bg_color": "shade(mix(@brown_5 , @window_bg_color , .24) , 1.36)",
+        "card_fg_color": "@window_fg_color",
+        "card_shade_color": "darker(@card_bg_color)",
+        "dialog_bg_color": "@card_bg_color",
+        "dialog_fg_color": "@card_fg_color",
+        "popover_bg_color": "@view_bg_color",
+        "popover_fg_color": "@view_fg_color",
+        "shade_color": "darker(@window_bg_color)",
+        "scrollbar_outline_color": "@borders"
+    },
+    "palette": {
+        "blue_": {
+            "1": "rgb(140,213,255)",
+            "2": "rgb(100,186,255)",
+            "3": "rgb(54,137,230)",
+            "4": "rgb(13,82,191)",
+            "5": "rgb(0,46,153)"
+        },
+        "green_": {
+            "1": "rgb(209,255,130)",
+            "2": "rgb(155,219,77)",
+            "3": "rgb(104,183,35)",
+            "4": "rgb(58,145,4)",
+            "5": "rgb(32,107,0)"
+        },
+        "yellow_": {
+            "1": "rgb(255,243,148)",
+            "2": "rgb(255,225,107)",
+            "3": "rgb(249,196,64)",
+            "4": "rgb(212,142,21)",
+            "5": "rgb(173,95,0)"
+        },
+        "orange_": {
+            "1": "rgb(255,194,125)",
+            "2": "rgb(255,161,84)",
+            "3": "rgb(243,115,41)",
+            "4": "rgb(204,59,2)",
+            "5": "rgb(166,33,0)"
+        },
+        "red_": {
+            "1": "rgb(255,140,130)",
+            "2": "rgb(237,83,83)",
+            "3": "rgb(198,38,46)",
+            "4": "rgb(161,7,5)",
+            "5": "rgb(122,0,0)"
+        },
+        "purple_": {
+            "1": "rgb(228,198,250)",
+            "2": "rgb(205,158,247)",
+            "3": "rgb(165,109,226)",
+            "4": "rgb(114,57,179)",
+            "5": "rgb(69,41,129)"
+        },
+        "brown_": {
+            "1": "rgb(163,144,124)",
+            "2": "rgb(138,113,94)",
+            "3": "rgb(113,83,68)",
+            "4": "rgb(87,57,45)",
+            "5": "rgb(61,33,27)"
+        },
+        "light_": {
+            "1": "rgb(250,250,250)",
+            "2": "rgb(212,212,212)",
+            "3": "rgb(171,172,174)",
+            "4": "rgb(126,128,135)",
+            "5": "rgb(72,90,108)"
+        },
+        "dark_": {
+            "1": "rgb(149,163,171)",
+            "2": "rgb(102,102,102)",
+            "3": "rgb(77,77,77)",
+            "4": "rgb(51,51,51)",
+            "5": "rgb(26,26,26)"
+        }
+    },
+    "custom_css": {
+        "gtk4": "/*\\ = Aliases = \\*/\n\n   @define-color\n      alpha   @accent_color      ; @define-color\n      beta    @borders /*/ for High Contrast Mode /*/\n      omega   @destructive_color ; @define-color\n\n/*\\-------------+\n #    Asides    #\n +-------------\\*/\n\n;  box\n+  separator.sidebar\n+  box\n,  .sidebar-pane\n,  .navigation-sidebar\n   {  color\n      :  @view_fg_color ; background :\n         @view_bg_color\n\n}  box\n+  separator.sidebar\n+  box\n      headerbar\n,  .sidebar-pane\n      headerbar\n,  .navigation-sidebar\n      headerbar\n   {  color\n      :  @card_fg_color ; background :\n         @card_bg_color\n\n/*\\--------------+\n #    Anchors    #\n +--------------\\*/\n\n}  link\n,  button.link\n   >  label\n   {  background-image : linear-gradient(\n         #0000 calc(100% - 6px)\n      ,  alpha(@beta , .6) 0\n   ); background-size : 100% calc(1em + 6px)\n\n/*\\ = Overrides = \\*/\n\n   ;  line-height : 1em\n   ;  background-origin : content-box\n   ;  background-clip : content-box\n\n}  link\n,  button.link\n,  button.link\n   >  label\n   {  text-decoration : none /*/ from Adwaita /*/\n\n/*\\------------------------+\n #    Buttons & Toggles    #\n +------------------------\\*/\n\n}  button.suggested-action\n,  switch\n   {  box-shadow : inset 0 0 0\n         1px @alpha\n\n}  button.opaque\n   {  box-shadow : inset 0 0 0\n         1px @beta\n\n}  button.destructive-action\n   {  box-shadow : inset 0 0 0\n         1px @omega\n\n/*\\-------------+\n #    Inputs    #\n +-------------\\*/\n\n}  textview\n,  label\n,  entry\n,  spinbutton\n   {  caret-color : @alpha /*/ from Adwaita /*/\n\n/*\\---------------+\n #     Checks     #\n +----------------+\n | Read <//uxmovement.com/forms/why-radio-buttons-and-checkboxes-cant-co-exist>\n | to understand. |\n +---------------\\*/\n\n}  :not(.selection-mode)\n   >  check , :not(.selection-mode)\n   >  radio\n   {  border-radius : 4px\n   ;  transform : rotateZ(-.125turn)\n   ;  -gtk-icon-transform : rotateZ(.125turn)\n\n}  check:checked\n,  radio:checked\n   {  -gtk-icon-source : -gtk-icontheme(\n         'object-select-symbolic'",
+        "gtk3": ""
+    },
+    "plugins": {}
+}
