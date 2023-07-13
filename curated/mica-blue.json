@@ -103,7 +103,7 @@
         }
     },
     "custom_css": {
-        "gtk4": "/*\nGenerated with Gradience\n\nIssues caused by theming should be reported to Gradience repository, and not upstream\n\nhttps://github.com/GradienceTeam/Gradience\n*/\n\n",
+        "gtk4": "",
         "gtk3": ""
     },
     "plugins": {}
