@@ -1,7 +1,7 @@
 {
     "Builder": "https://github.com/GradienceTeam/Community/raw/next/official/builder.json",
     "Builder Dark": "https://github.com/GradienceTeam/Community/raw/next/official/builder-dark.json",
-    "Catppuccin Frappé": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-frappé.json",
+    "Catppuccin Frapp\u00e9": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-frappe.json",
     "Catppuccin Latte": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-latte.json",
     "Catppuccin Macchiato": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-macchiato.json",
     "Catppuccin Mocha": "https://github.com/GradienceTeam/Community/raw/next/official/catppuccin-mocha.json",
@@ -15,6 +15,7 @@
     "Gruvbox Dark": "https://github.com/GradienceTeam/Community/raw/next/official/gruvbox-dark.json",
     "Kate": "https://github.com/GradienceTeam/Community/raw/next/official/kate.json",
     "Kate Dark": "https://github.com/GradienceTeam/Community/raw/next/official/kate-dark.json",
+    "Night Owl": "https://github.com/GradienceTeam/Community/raw/next/official/night-owl.json",
     "Oblivion": "https://github.com/GradienceTeam/Community/raw/next/official/oblivion.json",
     "Peninsula": "https://github.com/GradienceTeam/Community/raw/next/official/peninsula.json",
     "Peninsula Dark": "https://github.com/GradienceTeam/Community/raw/next/official/peninsula-dark.json",
