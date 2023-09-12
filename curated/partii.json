@@ -1,0 +1,108 @@
+{
+    "name": "Partii",
+    "variables": {
+        "accent_color": "#ffb876",
+        "accent_bg_color": "#e49b55",
+        "accent_fg_color": "#ffffff",
+        "destructive_color": "#EF9A9A",
+        "destructive_bg_color": "#EF5350",
+        "destructive_fg_color": "#FFFFFF",
+        "success_color": "#A5D6A7",
+        "success_bg_color": "#66BB6A",
+        "success_fg_color": "rgba(0, 0, 0, 0.8)",
+        "warning_color": "#FFF59D",
+        "warning_bg_color": "#FFEE58",
+        "warning_fg_color": "rgba(0, 0, 0, 0.8)",
+        "error_color": "#EF9A9A",
+        "error_bg_color": "#EF5350",
+        "error_fg_color": "#ffffff",
+        "window_bg_color": "#141d1d",
+        "window_fg_color": "#d4e6e5",
+        "view_bg_color": "#293232",
+        "view_fg_color": "#c1e8fb",
+        "headerbar_bg_color": "#293232",
+        "headerbar_fg_color": "#c1e8fb",
+        "headerbar_border_color": "@headerbar_fg_color",
+        "headerbar_backdrop_color": "@window_bg_color",
+        "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
+        "card_bg_color": "#293232",
+        "card_fg_color": "#d4e6e5",
+        "card_shade_color": "rgba(0, 0, 0, 0.36)",
+        "dialog_bg_color": "#384b4a",
+        "dialog_fg_color": "#a5ccdf",
+        "popover_bg_color": "#384b4a",
+        "popover_fg_color": "#a5ccdf",
+        "shade_color": "rgba(0, 0, 0, 0.36)",
+        "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
+    },
+    "palette": {
+        "blue_": {
+            "1": "#99c1f1",
+            "2": "#62a0ea",
+            "3": "#3584e4",
+            "4": "#1c71d8",
+            "5": "#1a5fb4"
+        },
+        "green_": {
+            "1": "#8ff0a4",
+            "2": "#57e389",
+            "3": "#33d17a",
+            "4": "#2ec27e",
+            "5": "#26a269"
+        },
+        "yellow_": {
+            "1": "#f9f06b",
+            "2": "#f8e45c",
+            "3": "#f6d32d",
+            "4": "#f5c211",
+            "5": "#e5a50a"
+        },
+        "orange_": {
+            "1": "#ffbe6f",
+            "2": "#ffa348",
+            "3": "#ff7800",
+            "4": "#e66100",
+            "5": "#c64600"
+        },
+        "red_": {
+            "1": "#f66151",
+            "2": "#ed333b",
+            "3": "#e01b24",
+            "4": "#c01c28",
+            "5": "#a51d2d"
+        },
+        "purple_": {
+            "1": "#dc8add",
+            "2": "#c061cb",
+            "3": "#9141ac",
+            "4": "#813d9c",
+            "5": "#613583"
+        },
+        "brown_": {
+            "1": "#cdab8f",
+            "2": "#b5835a",
+            "3": "#986a44",
+            "4": "#865e3c",
+            "5": "#63452c"
+        },
+        "light_": {
+            "1": "rgb(255,255,255)",
+            "2": "rgb(233,243,242)",
+            "3": "rgb(190,201,200)",
+            "4": "rgb(163,173,173)",
+            "5": "rgb(136,147,146)"
+        },
+        "dark_": {
+            "1": "rgb(110,120,120)",
+            "2": "rgb(63,73,72)",
+            "3": "rgb(41,50,50)",
+            "4": "rgb(20,29,29)",
+            "5": "rgb(0,0,0)"
+        }
+    },
+    "custom_css": {
+        "gtk4": "",
+        "gtk3": ""
+    },
+    "plugins": {}
+}
