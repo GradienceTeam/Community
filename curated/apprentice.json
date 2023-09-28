@@ -1,38 +1,37 @@
 {
-    "name": "Layan Light",
+    "name": "Apprentice",
     "variables": {
-        "accent_color": "#868bf5",
-        "accent_bg_color": "#5657f5",
-        "accent_fg_color": "#eaeaea",
-        "destructive_color": "#bf6567",
-        "destructive_bg_color": "#bf0303",
-        "destructive_fg_color": "#eaeaea",
-        "success_color": "#71de8b",
-        "success_bg_color": "#006e28",
-        "success_fg_color": "#eaeaea",
-        "warning_color": "#f8e45c",
-        "warning_bg_color": "#b08000",
+        "accent_color": "rgb(166, 170, 241)",
+        "accent_bg_color": "rgb(39, 67, 199)",
+        "accent_fg_color": "rgb(219, 219, 219)",
+        "destructive_color": "rgb(220, 121, 116)",
+        "destructive_bg_color": "rgb(180, 60, 41)",
+        "destructive_fg_color": "rgb(219, 219, 219)",
+        "success_color": "rgb(87, 230, 144)",
+        "success_bg_color": "rgb(0, 194, 0)",
+        "success_fg_color": "rgb(219, 219, 219)",
+        "warning_color": "rgb(236, 225, 0)",
+        "warning_bg_color": "rgb(199, 196, 0)",
         "warning_fg_color": "rgba(0, 0, 0, 0.8)",
-        "error_color": "#bf6567",
-        "error_bg_color": "#bf0303",
-        "error_fg_color": "#eaeaea",
-        "window_bg_color": "#ffffff",
-        "window_fg_color": "#333333",
-        "view_bg_color": "#f5f5f5",
-        "view_fg_color": "#333333",
-        "headerbar_bg_color": "#fcfcfc",
-        "headerbar_fg_color": "#333333",
-        "headerbar_border_color": "#ffffff",
-        "headerbar_backdrop_color": "@window_bg_color",
+        "error_color": "rgb(220, 121, 116)",
+        "error_bg_color": "rgb(180, 60, 41)",
+        "error_fg_color": "rgb(219, 219, 219)",
+        "window_bg_color": "rgb(20, 25, 30)",
+        "window_fg_color": "rgb(219, 219, 219)",
+        "view_bg_color": "rgb(20, 25, 30)",
+        "view_fg_color": "rgb(219, 219, 219)",
+        "headerbar_bg_color": "rgb(20, 25, 30)",
+        "headerbar_fg_color": "rgb(219, 219, 219)",
+        "headerbar_border_color": "rgb(219, 219, 219)",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.36)",
         "card_bg_color": "rgba(255, 255, 255, 0.08)",
-        "card_fg_color": "#333333",
+        "card_fg_color": "rgb(219, 219, 219)",
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
-        "dialog_bg_color": "#ffffff",
-        "dialog_fg_color": "#333333",
-        "popover_bg_color": "#fcfcfc",
-        "popover_fg_color": "#333333",
-        "shade_color": "rgb(56,56,56)",
+        "dialog_bg_color": "rgb(20, 25, 31)",
+        "dialog_fg_color": "rgb(219, 219, 219)",
+        "popover_bg_color": "rgb(20, 25, 30)",
+        "popover_fg_color": "rgb(219, 219, 219)",
+        "shade_color": "rgba(0, 0, 0, 0.36)",
         "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
     },
     "palette": {
@@ -86,7 +85,7 @@
             "5": "#63452c"
         },
         "light_": {
-            "1": "#ffffff",
+            "1": "#fff",
             "2": "#f6f5f4",
             "3": "#deddda",
             "4": "#c0bfbc",
@@ -97,11 +96,11 @@
             "2": "#5e5c64",
             "3": "#3d3846",
             "4": "#241f31",
-            "5": "#000000"
+            "5": "#000"
         }
     },
     "custom_css": {
-        "gtk4": "",
-        "gtk3": ""
-    }
+        "gtk4": ""
+    },
+    "plugins": {}
 }

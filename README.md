@@ -1,46 +1,27 @@
 # Community
 
-[![Chat on Matrix](https://matrix.to/img/matrix-badge.svg)](https://matrix.to/#/#Gradience:matrix.org)
-[![Chat on Discord](https://img.shields.io/discord/1013779899821064202?label=discord&logo=discord&logoColor=white)](https://discord.com/invite/MYa8Sr7btJ)
+[![Chat on Matrix](https://img.shields.io/matrix/Gradience:matrix.org?color=%230dbd8b&label=Gradience&logo=matrix&logoColor=white)](https://matrix.to/#/#Gradience:matrix.org)
+[![Chat on Discord](https://dcbadge.vercel.app/api/server/4njFDtfGEZ?style=flat&theme=default-inverted)](https://discord.com/invite/4njFDtfGEZ)
 
 Add your Presets to `Explore` tab
 
 # How to add
 
-Your Preset can be stored in:
-
-1. this `repo`
-2. in your `repo`
-
-## Preset stored in the official `repo` (recommended)
-
 In your Pull Request, add your Preset in the `curated` folder
 
-Don't touch to `curated.json` because it's automatically generated.
-
-## Preset stored somewhere else
-
-### What's a repo ?
-
-A repo is a file where you list all of your presets. It can be stored everywhere after creating your repo, you can share it and enable it in `Preferences`
-
-Store a file with a similar formatting to `curated.json`, it can be everywhere (on your server, on a GitHub repo, on GitHub gist, etc)
-
-```json
-{
-  "My Awesome Preset": "https://my.website.me/my-awesome-preset.json"
-}
-```
-Add a link to your `repo` in `Preferences` > `Repo`
+Don't edit `curated.json`, as it is automatically generated.
 
 # Preset example
+
+<details><summary>Click to expand</summary>
+
 ```json
 {
     // The name should be written as shown, in PascalCase, but with spaces between words
-    "name": "Preset Name", 
+    "name": "Pretty Purple",
     "variables": {
-        "accent_color": "#78aeed",
-        "accent_bg_color": "#3584e4",
+        "accent_color": "#dc8add",
+        "accent_bg_color": "#9141ac",
         "accent_fg_color": "#ffffff",
         "destructive_color": "#ff7b63",
         "destructive_bg_color": "#c01c28",
@@ -54,11 +35,11 @@ Add a link to your `repo` in `Preferences` > `Repo`
         "error_color": "#ff7b63",
         "error_bg_color": "#c01c28",
         "error_fg_color": "#ffffff",
-        "window_bg_color": "#242424",
+        "window_bg_color": "#241f31",
         "window_fg_color": "#ffffff",
-        "view_bg_color": "#1e1e1e",
+        "view_bg_color": "#241f31",
         "view_fg_color": "#ffffff",
-        "headerbar_bg_color": "#303030",
+        "headerbar_bg_color": "#241f31",
         "headerbar_fg_color": "#ffffff",
         "headerbar_border_color": "#ffffff",
         "headerbar_backdrop_color": "@window_bg_color",
@@ -66,12 +47,12 @@ Add a link to your `repo` in `Preferences` > `Repo`
         "card_bg_color": "rgba(255, 255, 255, 0.08)",
         "card_fg_color": "#ffffff",
         "card_shade_color": "rgba(0, 0, 0, 0.36)",
-        "dialog_bg_color": "#383838",
+        "dialog_bg_color": "#241f31",
         "dialog_fg_color": "#ffffff",
-        "popover_bg_color": "#383838",
+        "popover_bg_color": "#241f31",
         "popover_fg_color": "#ffffff",
-        "shade_color": "rgba(0,0,0,0.36)",
-        "scrollbar_outline_color": "rgba(0,0,0,0.5)"
+        "shade_color": "rgba(0, 0, 0, 0.36)",
+        "scrollbar_outline_color": "rgba(0, 0, 0, 0.5)"
     },
     "palette": {
         "blue_": {
@@ -141,6 +122,13 @@ Add a link to your `repo` in `Preferences` > `Repo`
     "custom_css": {
         "gtk4": "",
         "gtk3": ""
-    }
+    },
+    "plugins": {}
 }
+
 ```
+</details>
+
+# Credits
+
+Special thanks to [@dominichayesferen](https://github.com/dominichayesferen) for creating script for automatic preset list generation

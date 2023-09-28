@@ -1,5 +1,5 @@
 {
-    "name": "Builder Light",
+    "name": "Builder",
     "variables": {
         "accent_color": "#75aac1",
         "accent_bg_color": "#0077aa",
@@ -103,5 +103,6 @@
     "custom_css": {
         "gtk4": "",
         "gtk3": ""
-    }
+    },
+    "plugins": {}
 }

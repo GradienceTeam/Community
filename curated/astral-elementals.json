@@ -1,0 +1,108 @@
+{
+    "name": "Astral Elementals",
+    "variables": {
+        "accent_color": "@\\-a",
+        "accent_bg_color": "@\\-A",
+        "accent_fg_color": "@\\-f",
+        "destructive_color": "@\\-e",
+        "destructive_bg_color": "@\\-E",
+        "destructive_fg_color": "@\\-f",
+        "success_color": "@\\-s",
+        "success_bg_color": "@\\-S",
+        "success_fg_color": "@\\-f",
+        "warning_color": "@\\-w",
+        "warning_bg_color": "@\\-W",
+        "warning_fg_color": "@\\-f",
+        "error_color": "@\\-e",
+        "error_bg_color": "@\\-E",
+        "error_fg_color": "@\\-f",
+        "window_bg_color": "@\\-g",
+        "window_fg_color": "@\\-F",
+        "view_bg_color": "@\\-v",
+        "view_fg_color": "@\\-f",
+        "headerbar_bg_color": "@h",
+        "headerbar_fg_color": "@\\-f",
+        "headerbar_border_color": "@b",
+        "headerbar_backdrop_color": "@h",
+        "headerbar_shade_color": "@H",
+        "card_bg_color": "@\\-c",
+        "card_fg_color": "@\\-f",
+        "card_shade_color": "@C",
+        "dialog_bg_color": "@d",
+        "dialog_fg_color": "@\\-f",
+        "popover_bg_color": "@\\-c",
+        "popover_fg_color": "@\\-f",
+        "shade_color": "@G",
+        "scrollbar_outline_color": "@b"
+    },
+    "palette": {
+        "blue_": {
+            "1": "#8cd5ff",
+            "2": "#64baff",
+            "3": "#3689e6",
+            "4": "#0d52bf",
+            "5": "#002e99"
+        },
+        "green_": {
+            "1": "#89ffdd",
+            "2": "#43d6b5",
+            "3": "#28bca3",
+            "4": "#0e9a83",
+            "5": "#007367"
+        },
+        "yellow_": {
+            "1": "#fff394",
+            "2": "#ffe16b",
+            "3": "#f9c440",
+            "4": "#d48e15",
+            "5": "#ad5f00"
+        },
+        "orange_": {
+            "1": "#ffc27d",
+            "2": "#ffa154",
+            "3": "#f37329",
+            "4": "#cc3b02",
+            "5": "#a62100"
+        },
+        "red_": {
+            "1": "#fe9ab8",
+            "2": "#f4679d",
+            "3": "#de3e80",
+            "4": "#bc245d",
+            "5": "#910e38"
+        },
+        "purple_": {
+            "1": "#e4c6fa",
+            "2": "#cd9ef7",
+            "3": "#a56de2",
+            "4": "#7239b3",
+            "5": "#452981"
+        },
+        "brown_": {
+            "1": "#a3907c",
+            "2": "#8a715e",
+            "3": "#715344",
+            "4": "#57392d",
+            "5": "#3d211b"
+        },
+        "light_": {
+            "1": "#fafafa",
+            "2": "#d4d4d4",
+            "3": "#d4d4d4",
+            "4": "#7e8087",
+            "5": "#555761"
+        },
+        "dark_": {
+            "1": "#666666",
+            "2": "#4d4d4d",
+            "3": "#333333",
+            "4": "#333333",
+            "5": "#1a1a1a"
+        }
+    },
+    "custom_css": {
+        "gtk4": "/*\\ = Aliases = \\*/\n\n   @define-color\n      \\+f   @light_1                                       ;  @define-color\n      \\+F   @light_2                                       ;  @define-color\n      \\+g   @dark_5                                        ;  @define-color\n      \\-f   @dark_5                                        ;  @define-color\n      \\-F   @dark_4                                        ;  @define-color\n      \\-g   @light_1                                       ;  @define-color\n   /*/*/G   shade(@window_bg_color , .82)                  ;  @define-color\n   /*/*/b   @borders /*/ [Caution] Marked as compat // [Note] Auto high contrast /*/ ; @define-color\n\n   /*/*/h   shade(@window_bg_color , .94)                  ;  @define-color\n   /*/*/H   shade(@headerbar_bg_color , .82)               ;  @define-color\n\n   /*/*/d   shade(@window_bg_color , 1.3)                  ;  @define-color\n\n      \\+v   shade(@brown_5 , 1.48)                         ;  @define-color\n      \\-v   shade(@brown_1 , 1.54)                         ;  @define-color\n\n      \\+c   shade(@brown_5 , 1.72)                         ;  @define-color\n      \\-c   shade(@brown_1 , 1.66)                         ;  @define-color\n   /*/*/C   shade(@card_bg_color , .82)                    ;  @define-color\n\n      \\+a   @red_1                                         ;  @define-color\n      \\+A   @red_2                                         ;  @define-color\n      \\-a   @red_2                                         ;  @define-color\n      \\-A   @red_1                                         ;  @define-color\n      \\+s   @green_1                                       ;  @define-color\n      \\+S   @green_2                                       ;  @define-color\n      \\-s   @green_2                                       ;  @define-color\n      \\-S   @green_1                                       ;  @define-color\n      \\+w   @yellow_3                                      ;  @define-color\n      \\+W   @yellow_4                                      ;  @define-color\n      \\-w   @yellow_4                                      ;  @define-color\n      \\-W   @yellow_3                                      ;  @define-color\n      \\+e   @purple_2                                      ;  @define-color\n      \\+E   @purple_3                                      ;  @define-color\n      \\-e   @purple_3                                      ;  @define-color\n      \\-E   @purple_2\n\n/*\\--------------+\n #    Anchors    #\n +--------------\\*/\n\n;  link\n,  button.link\n   >  label\n   {  background-image : linear-gradient( /*/ [Lookup] It is not shown until in \u201c:hocus\u201d /*/\n         #0000 calc(100% - 6px)\n      ,  alpha(@accent_color , .66) 0\n   ); background-size : 100% calc(1em + 6px) /*/ [Awaiting] \u201ctext-decoration-thickness\u201d property /*/\n   ;  line-height : 1em /*/ [Awaiting] \u201clh\u201d unit /*/\n   ;  background-origin : content-box\n   ;  background-clip : content-box\n   ;  color : inherit /*/ [Lookup] Do not work /*/\n   ;  text-decoration : none\n\n/*\\-------------+\n #    Asides    #\n +-------------\\*/\n\n;} box.vertical\n+  separator\n+  box.vertical\n,  .sidebar-pane\n,  .navigation-sidebar\n   {  color\n      :  @view_fg_color /*/ [Problem] Widget backgrounds in legacy apps while dark scheme /*/ ; background-color :\n         @view_bg_color\n\n;} box.vertical\n+  separator\n+  box.vertical\n      headerbar:not(.flat) , box.vertical + separator + box.vertical\n      tabbar:not(.inline) , box.vertical + separator + box.vertical\n      viewswitcherbar\n,  .sidebar-pane\n      headerbar:not(.flat) , .sidebar-pane\n      tabbar:not(.inline) , .sidebar-pane\n      viewswitcherbar\n,  .navigation-sidebar\n      headerbar:not(.flat) , .navigation-sidebar\n      tabbar:not(.inline) , .navigation-sidebar\n      viewswitcherbar\n   {  color\n      :  @view_fg_color ; background-color :\n         shade(@view_bg_color , .94)\n\n;} .sidebar-pane\n      .content-pane\n,  .content-pane\n      .sidebar-pane\n   {  color\n      :  @dialog_fg_color ; background-color :\n         @dialog_bg_color\n\n;} .sidebar-pane\n      .content-pane\n         headerbar:not(.flat) , .sidebar-pane .content-pane\n         tabbar:not(.inline) , .sidebar-pane .content-pane\n         viewswitcherbar\n,  .content-pane\n      .sidebar-pane\n         headerbar:not(.flat) , .content-pane .sidebar-pane\n         tabbar:not(.inline) , .content-pane .sidebar-pane\n         viewswitcherbar\n   {  color\n      :  @dialog_fg_color ; background-color :\n         shade(@dialog_bg_color , .94)\n\n/*\\--------------------+\n #    Interactables    #\n +--------------------\\*/\n\n;} button.suggested-action\n,  switch:checked\n,  checkbutton /*/ [Caution] Inappropriate descendant combinators /*/\n   >  check:checked , checkbutton\n   >  radio:checked\n   {  box-shadow : inset 0 0 0\n         1px @accent_color\n\n;} button.opaque\n   {  box-shadow : inset 0 0 0\n         1px @borders\n\n;} button.destructive-action\n   {  box-shadow : inset 0 0 0\n         1px @error_color\n\n/*\\----------------+\n #    Calendars    #\n +----------------\\*/\n\n;} .view\n   >  calendar-view /*/ [Enhancement] :has() pseudo /*/\n   {  background-color : @window_bg_color\n\n/*\\---------------+\n #     Checks     #\n +----------------+\n | Read <//uxmovement.com/forms/why-radio-buttons-and-checkboxes-cant-co-exist>\n | to understand  |\n | the motivation |\n +---------------\\*/\n\n;} :not(.selection-mode) /*/ [Awaiting] Correct \u201cchild:not(parent *)\u201d behavior /*/\n   >  check , :not(.selection-mode)\n   >  radio\n   {  border-radius : 4px\n   ;  transform /*/ [Todo] Replace with diagonal linear gradients at quarters and half radial gradients at corners /*/\n      :  rotateZ(.125turn) ; -gtk-icon-transform :\n         rotateZ(-.125turn)\n\n;} check:checked\n,  radio:checked\n   {  -gtk-icon-source : -gtk-icontheme(\n         'object-select-symbolic'\n\n/*\\-------------+\n #    Chrome    #\n +-------------\\*/\n\n);}* { caret-color : @accent_color ;}",
+        "gtk3": ""
+    },
+    "plugins": {}
+}
