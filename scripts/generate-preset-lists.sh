@@ -9,6 +9,6 @@ python3 scripts/update-curated.py
 
 git config --global user.name 'Gradience Team'
 git config --global user.email 'AdwCustomizerTeam@proton.me'
-git add presets.json
+git add official.json curated.json
 git commit -m "ci: Generate preset list"
 git push
